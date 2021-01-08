@@ -32,6 +32,7 @@ namespace onlineShopping
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             this.offButton = new System.Windows.Forms.Button();
             this.minButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // offButton
@@ -68,6 +69,16 @@ namespace onlineShopping
             this.minButton.UseVisualStyleBackColor = false;
             this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(74, 121);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(307, 267);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Demo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -75,6 +86,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.minButton);
             this.Controls.Add(this.offButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -89,6 +101,7 @@ namespace onlineShopping
 
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.Button minButton;
+        private System.Windows.Forms.Button button1;
     }
 }
 
