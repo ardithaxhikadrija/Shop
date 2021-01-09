@@ -15,6 +15,7 @@ namespace onlineShopping
         public homeForm()
         {
             InitializeComponent();
+            signUp1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -30,6 +31,16 @@ namespace onlineShopping
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void homeForm_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void signUp_Click(object sender, EventArgs e)
+        {
+            signUp1.Show();
         }
     }
 }

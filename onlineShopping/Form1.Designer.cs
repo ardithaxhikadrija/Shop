@@ -32,6 +32,8 @@ namespace onlineShopping
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             this.offButton = new System.Windows.Forms.Button();
             this.minButton = new System.Windows.Forms.Button();
+            this.signUp = new System.Windows.Forms.Button();
+            this.signUp1 = new onlineShopping.signUp();
             this.SuspendLayout();
             // 
             // offButton
@@ -68,6 +70,23 @@ namespace onlineShopping
             this.minButton.UseVisualStyleBackColor = false;
             this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
+            // signUp
+            // 
+            this.signUp.Location = new System.Drawing.Point(1021, 6);
+            this.signUp.Name = "signUp";
+            this.signUp.Size = new System.Drawing.Size(87, 26);
+            this.signUp.TabIndex = 2;
+            this.signUp.Text = "Sign Up";
+            this.signUp.UseVisualStyleBackColor = true;
+            this.signUp.Click += new System.EventHandler(this.signUp_Click);
+            // 
+            // signUp1
+            // 
+            this.signUp1.Location = new System.Drawing.Point(606, 68);
+            this.signUp1.Name = "signUp1";
+            this.signUp1.Size = new System.Drawing.Size(594, 467);
+            this.signUp1.TabIndex = 3;
+            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -75,12 +94,15 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.signUp1);
+            this.Controls.Add(this.signUp);
             this.Controls.Add(this.minButton);
             this.Controls.Add(this.offButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "homeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.homeForm_Load);
             this.ResumeLayout(false);
 
         }
@@ -89,6 +111,8 @@ namespace onlineShopping
 
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.Button minButton;
+        private System.Windows.Forms.Button signUp;
+        private signUp signUp1;
     }
 }
 
