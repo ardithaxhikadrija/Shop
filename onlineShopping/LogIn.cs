@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace onlineShopping
 {
-    public partial class SignUp : Form
+    public partial class LogIn : Form
     {
-        public SignUp()
+        public LogIn()
         {
             InitializeComponent();
         }
@@ -22,8 +22,10 @@ namespace onlineShopping
 
         }
 
-        private void signUpButton_Click(object sender, EventArgs e)
+        private void LogInButton_Click(object sender, EventArgs e)
         {
+            homeForm home = new homeForm();
+            home.Show();
             this.Hide();
         }
     }

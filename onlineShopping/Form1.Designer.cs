@@ -32,8 +32,8 @@ namespace onlineShopping
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             this.offButton = new System.Windows.Forms.Button();
             this.minButton = new System.Windows.Forms.Button();
-            this.signUp = new System.Windows.Forms.Button();
-            this.signUp1 = new onlineShopping.signUp();
+            this.profile = new System.Windows.Forms.Button();
+            this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
             // 
             // offButton
@@ -70,22 +70,30 @@ namespace onlineShopping
             this.minButton.UseVisualStyleBackColor = false;
             this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
-            // signUp
+            // profile
             // 
-            this.signUp.Location = new System.Drawing.Point(1021, 6);
-            this.signUp.Name = "signUp";
-            this.signUp.Size = new System.Drawing.Size(87, 26);
-            this.signUp.TabIndex = 2;
-            this.signUp.Text = "Sign Up";
-            this.signUp.UseVisualStyleBackColor = true;
-            this.signUp.Click += new System.EventHandler(this.signUp_Click);
+            this.profile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.profile.BackColor = System.Drawing.Color.Transparent;
+            this.profile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profile.FlatAppearance.BorderSize = 0;
+            this.profile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.profile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.profile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profile.Image = ((System.Drawing.Image)(resources.GetObject("profile.Image")));
+            this.profile.Location = new System.Drawing.Point(1036, 0);
+            this.profile.Name = "profile";
+            this.profile.Size = new System.Drawing.Size(40, 38);
+            this.profile.TabIndex = 2;
+            this.profile.UseVisualStyleBackColor = false;
+            this.profile.Click += new System.EventHandler(this.profile_Click);
             // 
-            // signUp1
+            // profile1
             // 
-            this.signUp1.Location = new System.Drawing.Point(606, 68);
-            this.signUp1.Name = "signUp1";
-            this.signUp1.Size = new System.Drawing.Size(594, 467);
-            this.signUp1.TabIndex = 3;
+            this.profile1.BackColor = System.Drawing.Color.White;
+            this.profile1.Location = new System.Drawing.Point(897, 0);
+            this.profile1.Name = "profile1";
+            this.profile1.Size = new System.Drawing.Size(211, 196);
+            this.profile1.TabIndex = 3;
             // 
             // homeForm
             // 
@@ -94,8 +102,8 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.signUp1);
-            this.Controls.Add(this.signUp);
+            this.Controls.Add(this.profile1);
+            this.Controls.Add(this.profile);
             this.Controls.Add(this.minButton);
             this.Controls.Add(this.offButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -111,8 +119,8 @@ namespace onlineShopping
 
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.Button minButton;
-        private System.Windows.Forms.Button signUp;
-        private signUp signUp1;
+        private System.Windows.Forms.Button profile;
+        private profile profile1;
     }
 }
 

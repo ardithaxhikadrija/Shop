@@ -15,7 +15,7 @@ namespace onlineShopping
         public homeForm()
         {
             InitializeComponent();
-            signUp1.Hide();
+            profile1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -38,9 +38,14 @@ namespace onlineShopping
             
         }
 
-        private void signUp_Click(object sender, EventArgs e)
+        private void profile1_Load(object sender, EventArgs e)
         {
-            signUp1.Show();
+            
+        }
+
+        private void profile_Click(object sender, EventArgs e)
+        {
+            profile1.Show();
         }
     }
 }
