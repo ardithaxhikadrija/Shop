@@ -15,7 +15,6 @@ namespace onlineShopping
         public homeForm()
         {
             InitializeComponent();
-            profile1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -50,9 +49,17 @@ namespace onlineShopping
 
         private void scrollButton_Click(object sender, EventArgs e)
         {
-            homeFrom2 home2 = new homeFrom2();
-            home2.Show();
-            this.Hide();
+
+        }
+
+        private void profile1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void scrollButton_Click_1(object sender, EventArgs e)
+        {
+            
         }
     }
 }

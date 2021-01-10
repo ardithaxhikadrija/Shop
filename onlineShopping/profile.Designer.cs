@@ -84,6 +84,7 @@ namespace onlineShopping
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "profile";
             this.Size = new System.Drawing.Size(211, 196);
+            this.Load += new System.EventHandler(this.profile_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
