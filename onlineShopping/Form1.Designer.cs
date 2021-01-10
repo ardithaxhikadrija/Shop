@@ -46,9 +46,9 @@ namespace onlineShopping
             this.offButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.offButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.offButton.Image = ((System.Drawing.Image)(resources.GetObject("offButton.Image")));
-            this.offButton.Location = new System.Drawing.Point(1160, 0);
+            this.offButton.Location = new System.Drawing.Point(1165, 0);
             this.offButton.Name = "offButton";
-            this.offButton.Size = new System.Drawing.Size(40, 38);
+            this.offButton.Size = new System.Drawing.Size(30, 30);
             this.offButton.TabIndex = 0;
             this.offButton.UseVisualStyleBackColor = false;
             this.offButton.Click += new System.EventHandler(this.offButton_Click);
@@ -63,9 +63,9 @@ namespace onlineShopping
             this.minButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.minButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minButton.Image = ((System.Drawing.Image)(resources.GetObject("minButton.Image")));
-            this.minButton.Location = new System.Drawing.Point(1114, 0);
+            this.minButton.Location = new System.Drawing.Point(1125, 0);
             this.minButton.Name = "minButton";
-            this.minButton.Size = new System.Drawing.Size(40, 38);
+            this.minButton.Size = new System.Drawing.Size(30, 30);
             this.minButton.TabIndex = 1;
             this.minButton.UseVisualStyleBackColor = false;
             this.minButton.Click += new System.EventHandler(this.minButton_Click);
@@ -80,9 +80,9 @@ namespace onlineShopping
             this.profile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.profile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.profile.Image = ((System.Drawing.Image)(resources.GetObject("profile.Image")));
-            this.profile.Location = new System.Drawing.Point(1036, 0);
+            this.profile.Location = new System.Drawing.Point(1085, 0);
             this.profile.Name = "profile";
-            this.profile.Size = new System.Drawing.Size(40, 38);
+            this.profile.Size = new System.Drawing.Size(30, 30);
             this.profile.TabIndex = 2;
             this.profile.UseVisualStyleBackColor = false;
             this.profile.Click += new System.EventHandler(this.profile_Click);
