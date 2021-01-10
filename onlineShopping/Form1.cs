@@ -15,6 +15,7 @@ namespace onlineShopping
         public homeForm()
         {
             InitializeComponent();
+            profile1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
