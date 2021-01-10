@@ -31,7 +31,7 @@ namespace onlineShopping
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             this.minButton = new System.Windows.Forms.Button();
-            this.profile = new System.Windows.Forms.Button();
+            this.profileButton = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.profile1 = new onlineShopping.profile();
@@ -54,22 +54,22 @@ namespace onlineShopping
             this.minButton.UseVisualStyleBackColor = false;
             this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
-            // profile
+            // profileButton
             // 
-            this.profile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.profile.BackColor = System.Drawing.Color.Transparent;
-            this.profile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profile.FlatAppearance.BorderSize = 0;
-            this.profile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.profile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.profile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.profile.Image = ((System.Drawing.Image)(resources.GetObject("profile.Image")));
-            this.profile.Location = new System.Drawing.Point(1085, 0);
-            this.profile.Name = "profile";
-            this.profile.Size = new System.Drawing.Size(30, 30);
-            this.profile.TabIndex = 2;
-            this.profile.UseVisualStyleBackColor = false;
-            this.profile.Click += new System.EventHandler(this.profile_Click);
+            this.profileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.profileButton.BackColor = System.Drawing.Color.Transparent;
+            this.profileButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profileButton.FlatAppearance.BorderSize = 0;
+            this.profileButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.profileButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.profileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.profileButton.Image = ((System.Drawing.Image)(resources.GetObject("profileButton.Image")));
+            this.profileButton.Location = new System.Drawing.Point(1085, 0);
+            this.profileButton.Name = "profileButton";
+            this.profileButton.Size = new System.Drawing.Size(30, 30);
+            this.profileButton.TabIndex = 2;
+            this.profileButton.UseVisualStyleBackColor = false;
+            this.profileButton.Click += new System.EventHandler(this.profile_Click);
             // 
             // menuButton
             // 
@@ -120,7 +120,7 @@ namespace onlineShopping
             this.ClientSize = new System.Drawing.Size(1200, 700);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
-            this.Controls.Add(this.profile);
+            this.Controls.Add(this.profileButton);
             this.Controls.Add(this.minButton);
             this.Controls.Add(this.offButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -134,7 +134,7 @@ namespace onlineShopping
 
         #endregion
         private System.Windows.Forms.Button minButton;
-        private System.Windows.Forms.Button profile;
+        private System.Windows.Forms.Button profileButton;
         private System.Windows.Forms.Button menuButton;
         private profile profile1;
         private System.Windows.Forms.Button offButton;
