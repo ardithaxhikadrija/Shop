@@ -16,5 +16,20 @@ namespace onlineShopping
         {
             InitializeComponent();
         }
+
+        private void offButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void minButton_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void profile_Click(object sender, EventArgs e)
+        {
+            profile.Show();
+        }
     }
 }
