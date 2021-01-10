@@ -33,8 +33,9 @@ namespace onlineShopping
             this.offButton = new System.Windows.Forms.Button();
             this.minButton = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
-            this.profile1 = new onlineShopping.profile();
             this.menuButton = new System.Windows.Forms.Button();
+            this.profile1 = new onlineShopping.profile();
+            this.scrollButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // offButton
@@ -88,14 +89,6 @@ namespace onlineShopping
             this.profile.UseVisualStyleBackColor = false;
             this.profile.Click += new System.EventHandler(this.profile_Click);
             // 
-            // profile1
-            // 
-            this.profile1.BackColor = System.Drawing.Color.White;
-            this.profile1.Location = new System.Drawing.Point(897, 44);
-            this.profile1.Name = "profile1";
-            this.profile1.Size = new System.Drawing.Size(211, 196);
-            this.profile1.TabIndex = 3;
-            // 
             // menuButton
             // 
             this.menuButton.BackColor = System.Drawing.Color.Transparent;
@@ -115,6 +108,29 @@ namespace onlineShopping
             this.menuButton.Text = "Menu";
             this.menuButton.UseVisualStyleBackColor = false;
             // 
+            // profile1
+            // 
+            this.profile1.BackColor = System.Drawing.Color.White;
+            this.profile1.Location = new System.Drawing.Point(897, 44);
+            this.profile1.Name = "profile1";
+            this.profile1.Size = new System.Drawing.Size(211, 196);
+            this.profile1.TabIndex = 3;
+            // 
+            // scrollButton
+            // 
+            this.scrollButton.BackColor = System.Drawing.Color.Transparent;
+            this.scrollButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.scrollButton.FlatAppearance.BorderSize = 0;
+            this.scrollButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.scrollButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.scrollButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.scrollButton.Image = ((System.Drawing.Image)(resources.GetObject("scrollButton.Image")));
+            this.scrollButton.Location = new System.Drawing.Point(585, 650);
+            this.scrollButton.Name = "scrollButton";
+            this.scrollButton.Size = new System.Drawing.Size(30, 30);
+            this.scrollButton.TabIndex = 5;
+            this.scrollButton.UseVisualStyleBackColor = false;
+            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -122,6 +138,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.scrollButton);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.profile);
@@ -143,6 +160,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button profile;
         private profile profile1;
         private System.Windows.Forms.Button menuButton;
+        private System.Windows.Forms.Button scrollButton;
     }
 }
 
