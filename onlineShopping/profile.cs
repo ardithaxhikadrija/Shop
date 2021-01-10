@@ -30,5 +30,10 @@ namespace onlineShopping
             signUp.Show();
             this.Hide();
         }
+
+        private void profile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
