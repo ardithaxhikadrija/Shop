@@ -34,7 +34,6 @@ namespace onlineShopping
             this.minButton = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
             this.profile1 = new onlineShopping.profile();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // offButton
@@ -96,15 +95,6 @@ namespace onlineShopping
             this.profile1.Size = new System.Drawing.Size(211, 196);
             this.profile1.TabIndex = 3;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(222, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 146);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -112,7 +102,6 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.profile);
             this.Controls.Add(this.minButton);
@@ -132,7 +121,6 @@ namespace onlineShopping
         private System.Windows.Forms.Button minButton;
         private System.Windows.Forms.Button profile;
         private profile profile1;
-        private System.Windows.Forms.Button button1;
     }
 }
 
