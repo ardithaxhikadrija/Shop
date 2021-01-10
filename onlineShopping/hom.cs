@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace onlineShopping
 {
-    public partial class homeForm : Form
+    public partial class homeFrom2 : Form
     {
-        public homeForm()
+        public homeFrom2()
         {
             InitializeComponent();
             profile1.Hide();
@@ -20,7 +20,7 @@ namespace onlineShopping
 
         private void offButton_Click(object sender, EventArgs e)
         {
-           this.Close();
+            this.Close();
         }
 
         private void minButton_Click(object sender, EventArgs e)
@@ -28,31 +28,9 @@ namespace onlineShopping
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void homeForm_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void profile1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
         private void profile_Click(object sender, EventArgs e)
         {
-            profile1.Show();
-        }
-
-        private void scrollButton_Click(object sender, EventArgs e)
-        {
-            homeFrom2 home2 = new homeFrom2();
-            home2.Show();
-            this.Hide();
+           profile.Show();
         }
     }
 }
