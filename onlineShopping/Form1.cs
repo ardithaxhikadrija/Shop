@@ -47,5 +47,12 @@ namespace onlineShopping
         {
             profile1.Show();
         }
+
+        private void scrollButton_Click(object sender, EventArgs e)
+        {
+            homeFrom2 home2 = new homeFrom2();
+            home2.Show();
+            this.Hide();
+        }
     }
 }
