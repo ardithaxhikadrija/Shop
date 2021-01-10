@@ -90,7 +90,7 @@ namespace onlineShopping
             // profile1
             // 
             this.profile1.BackColor = System.Drawing.Color.White;
-            this.profile1.Location = new System.Drawing.Point(897, 0);
+            this.profile1.Location = new System.Drawing.Point(897, 44);
             this.profile1.Name = "profile1";
             this.profile1.Size = new System.Drawing.Size(211, 196);
             this.profile1.TabIndex = 3;
