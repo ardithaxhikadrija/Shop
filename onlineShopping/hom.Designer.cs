@@ -35,6 +35,7 @@ namespace onlineShopping
             this.minButton = new System.Windows.Forms.Button();
             this.profile = new System.Windows.Forms.Button();
             this.scrollButton = new System.Windows.Forms.Button();
+            this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
             // 
             // menuButton
@@ -121,6 +122,15 @@ namespace onlineShopping
             this.scrollButton.TabIndex = 9;
             this.scrollButton.UseVisualStyleBackColor = false;
             // 
+            // profile1
+            // 
+            this.profile1.BackColor = System.Drawing.Color.Transparent;
+            this.profile1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profile1.Location = new System.Drawing.Point(923, 36);
+            this.profile1.Name = "profile1";
+            this.profile1.Size = new System.Drawing.Size(211, 196);
+            this.profile1.TabIndex = 10;
+            // 
             // homeFrom2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -129,6 +139,7 @@ namespace onlineShopping
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.profile1);
             this.Controls.Add(this.scrollButton);
             this.Controls.Add(this.profile);
             this.Controls.Add(this.minButton);
@@ -149,5 +160,6 @@ namespace onlineShopping
         private System.Windows.Forms.Button minButton;
         private System.Windows.Forms.Button profile;
         private System.Windows.Forms.Button scrollButton;
+        private profile profile1;
     }
 }
