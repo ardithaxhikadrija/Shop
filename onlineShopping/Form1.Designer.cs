@@ -35,6 +35,7 @@ namespace onlineShopping
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.profile1 = new onlineShopping.profile();
+            this.menuPanel1 = new onlineShopping.menuPanel();
             this.SuspendLayout();
             // 
             // minButton
@@ -84,6 +85,7 @@ namespace onlineShopping
             this.menuButton.Size = new System.Drawing.Size(50, 50);
             this.menuButton.TabIndex = 4;
             this.menuButton.UseVisualStyleBackColor = false;
+            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
             // 
             // offButton
             // 
@@ -111,6 +113,14 @@ namespace onlineShopping
             this.profile1.Size = new System.Drawing.Size(211, 196);
             this.profile1.TabIndex = 6;
             // 
+            // menuPanel1
+            // 
+            this.menuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.menuPanel1.Location = new System.Drawing.Point(0, 0);
+            this.menuPanel1.Name = "menuPanel1";
+            this.menuPanel1.Size = new System.Drawing.Size(200, 700);
+            this.menuPanel1.TabIndex = 7;
+            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -118,6 +128,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.menuPanel1);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.profileButton);
@@ -138,6 +149,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button menuButton;
         private profile profile1;
         private System.Windows.Forms.Button offButton;
+        private menuPanel menuPanel1;
     }
 }
 

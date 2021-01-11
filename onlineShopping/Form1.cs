@@ -16,6 +16,7 @@ namespace onlineShopping
         {
             InitializeComponent();
             profile1.Hide();
+            menuPanel1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -61,6 +62,16 @@ namespace onlineShopping
         private void scrollButton_Click_1(object sender, EventArgs e)
         {
             
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuButton_Click(object sender, EventArgs e)
+        {
+            menuPanel1.Show();
         }
     }
 }
