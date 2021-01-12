@@ -26,7 +26,6 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\onlineS
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\onlineShopping.pdb
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Dapper.dll
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Dapper.xml
-C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.demoControl.resources
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.homeForm.resources
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.LogIn.resources
@@ -41,3 +40,4 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineS
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CopyComplete
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.exe
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.pdb
+C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
