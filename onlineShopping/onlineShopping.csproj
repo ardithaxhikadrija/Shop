@@ -90,12 +90,6 @@
     <Compile Include="LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="menuPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="menuPanel.Designer.cs">
-      <DependentUpon>menuPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="profile.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -110,6 +104,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="StoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreForm.Designer.cs">
+      <DependentUpon>StoreForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserRepository.cs" />
     <EmbeddedResource Include="demoControl.resx">
@@ -120,9 +120,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="menuPanel.resx">
-      <DependentUpon>menuPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
@@ -139,6 +136,9 @@
     </Compile>
     <EmbeddedResource Include="signUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreForm.resx">
+      <DependentUpon>StoreForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="AppDataSet.xsc">
       <DependentUpon>AppDataSet.xsd</DependentUpon>
