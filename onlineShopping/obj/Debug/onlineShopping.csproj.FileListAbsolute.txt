@@ -69,3 +69,4 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csp
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
 >>>>>>> 9b9ae47daf5a3b9b380c85fd056ac248b7a26cf1
+C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
