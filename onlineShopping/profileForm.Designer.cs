@@ -1,5 +1,4 @@
-﻿
-namespace onlineShopping
+﻿namespace onlineShopping
 {
     partial class profileForm
     {

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace onlineShopping
 {
-    public partial class profileForm : Form
+    public partial class profileForm: Form
     {
         public profileForm()
         {
