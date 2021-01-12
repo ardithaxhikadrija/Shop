@@ -53,6 +53,7 @@ namespace onlineShopping
             this.homeButton.TabIndex = 0;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = true;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // storesButton
             // 
@@ -85,6 +86,7 @@ namespace onlineShopping
             this.cartButton.TabIndex = 2;
             this.cartButton.Text = "Cart";
             this.cartButton.UseVisualStyleBackColor = true;
+            this.cartButton.Click += new System.EventHandler(this.cartButton_Click);
             // 
             // ordersButton
             // 
@@ -145,6 +147,7 @@ namespace onlineShopping
             this.Controls.Add(this.homeButton);
             this.Name = "menuPanel2";
             this.Size = new System.Drawing.Size(200, 700);
+            this.Load += new System.EventHandler(this.menuPanel2_Load);
             this.ResumeLayout(false);
 
         }
