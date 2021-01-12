@@ -40,7 +40,6 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Databas
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Database_log.ldf
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Dapper.dll
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\bin\Debug\Dapper.xml
-C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CopyComplete
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.demoControl.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.homeForm.resources
@@ -60,6 +59,13 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\onlineShopping.pdb
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\Dapper.dll
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\Dapper.xml
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.menuPanel2.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
+=======
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.menuPanel.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
+C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
+C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
+>>>>>>> 9b9ae47daf5a3b9b380c85fd056ac248b7a26cf1

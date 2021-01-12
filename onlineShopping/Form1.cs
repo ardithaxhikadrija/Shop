@@ -70,7 +70,10 @@ namespace onlineShopping
 
         private void menuButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+>>>>>>> 9b9ae47daf5a3b9b380c85fd056ac248b7a26cf1
         }
 
         private void profile1_Load_2(object sender, EventArgs e)
