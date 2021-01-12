@@ -120,6 +120,7 @@ namespace onlineShopping
             this.profilesButton.TabIndex = 4;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = true;
+            this.profilesButton.Click += new System.EventHandler(this.profilesButton_Click);
             // 
             // aboutusButton
             // 
