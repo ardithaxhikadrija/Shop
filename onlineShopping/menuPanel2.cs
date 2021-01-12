@@ -16,5 +16,20 @@ namespace onlineShopping
         {
             InitializeComponent();
         }
+
+        private void cartButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuPanel2_Load(object sender, EventArgs e)
+        {
+            this.BackColor = Color.FromArgb(50, Color.MidnightBlue);
+        }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
