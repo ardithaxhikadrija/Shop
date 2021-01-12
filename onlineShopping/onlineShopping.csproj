@@ -135,6 +135,9 @@
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="menuPanel2.resx">
+      <DependentUpon>menuPanel2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
     </EmbeddedResource>
