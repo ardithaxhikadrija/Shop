@@ -78,5 +78,10 @@ namespace onlineShopping
         {
 
         }
+
+        private void menuPanel21_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

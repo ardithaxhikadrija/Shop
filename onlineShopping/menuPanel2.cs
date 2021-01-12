@@ -29,7 +29,7 @@ namespace onlineShopping
 
         private void homeButton_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
         }
     }
 }

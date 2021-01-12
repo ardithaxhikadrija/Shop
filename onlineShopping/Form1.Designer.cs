@@ -119,6 +119,7 @@ namespace onlineShopping
             this.menuPanel21.Name = "menuPanel21";
             this.menuPanel21.Size = new System.Drawing.Size(200, 700);
             this.menuPanel21.TabIndex = 7;
+            this.menuPanel21.Load += new System.EventHandler(this.menuPanel21_Load);
             // 
             // profile1
             // 

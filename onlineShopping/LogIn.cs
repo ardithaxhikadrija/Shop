@@ -24,9 +24,12 @@ namespace onlineShopping
 
         private void LogInButton_Click(object sender, EventArgs e)
         {
-            homeForm home = new homeForm();
-            home.Show();
             this.Hide();
+        }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
