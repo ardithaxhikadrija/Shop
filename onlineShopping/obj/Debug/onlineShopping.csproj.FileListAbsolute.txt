@@ -62,3 +62,4 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\Dapper.xml
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CopyComplete
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.menuPanel.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
+C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
