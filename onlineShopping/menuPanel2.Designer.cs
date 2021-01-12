@@ -70,6 +70,7 @@ namespace onlineShopping
             this.storesButton.TabIndex = 1;
             this.storesButton.Text = "Stores";
             this.storesButton.UseVisualStyleBackColor = true;
+            this.storesButton.Click += new System.EventHandler(this.storesButton_Click);
             // 
             // cartButton
             // 
