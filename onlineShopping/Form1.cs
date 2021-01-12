@@ -87,5 +87,10 @@ namespace onlineShopping
             store.Show();
             this.Hide();
         }
+
+        private void menuPanel21_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
