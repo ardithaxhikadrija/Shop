@@ -51,7 +51,9 @@
     <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -89,6 +91,12 @@
     </Compile>
     <Compile Include="LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuPanel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menuPanel2.Designer.cs">
+      <DependentUpon>menuPanel2.cs</DependentUpon>
     </Compile>
     <Compile Include="profile.cs">
       <SubType>UserControl</SubType>

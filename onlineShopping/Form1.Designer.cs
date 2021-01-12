@@ -29,13 +29,14 @@ namespace onlineShopping
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(homeForm));
             this.minButton = new System.Windows.Forms.Button();
             this.profileButton = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.profile1 = new onlineShopping.profile();
-           // this.menuPanel1 = new onlineShopping.menuPanel();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
             // minButton
@@ -114,13 +115,11 @@ namespace onlineShopping
             this.profile1.TabIndex = 6;
             this.profile1.Load += new System.EventHandler(this.profile1_Load_2);
             // 
-            // menuPanel1
+            // contextMenuStrip1
             // 
-            //this.menuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            //this.menuPanel1.Location = new System.Drawing.Point(0, 0);
-            //this.menuPanel1.Name = "menuPanel1";
-            //this.menuPanel1.Size = new System.Drawing.Size(200, 700);
-           // this.menuPanel1.TabIndex = 7;
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // homeForm
             // 
@@ -129,7 +128,6 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
-           // this.Controls.Add(this.menuPanel1);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.profileButton);
@@ -150,6 +148,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button menuButton;
         private profile profile1;
         private System.Windows.Forms.Button offButton;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         //private menuPanel menuPanel1;
     }
 }
