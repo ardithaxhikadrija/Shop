@@ -73,5 +73,10 @@ namespace onlineShopping
         {
             menuPanel1.Show();
         }
+
+        private void profile1_Load_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
