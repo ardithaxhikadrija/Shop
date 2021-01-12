@@ -36,8 +36,8 @@ namespace onlineShopping
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.profile1 = new onlineShopping.profile();
             this.menuPanel21 = new onlineShopping.menuPanel2();
+            this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
             // 
             // minButton
@@ -112,6 +112,15 @@ namespace onlineShopping
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // menuPanel21
+            // 
+            this.menuPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.menuPanel21.Location = new System.Drawing.Point(0, 0);
+            this.menuPanel21.Name = "menuPanel21";
+            this.menuPanel21.Size = new System.Drawing.Size(200, 700);
+            this.menuPanel21.TabIndex = 7;
+            this.menuPanel21.Load += new System.EventHandler(this.menuPanel21_Load);
+            // 
             // profile1
             // 
             this.profile1.BackColor = System.Drawing.Color.Transparent;
@@ -121,14 +130,6 @@ namespace onlineShopping
             this.profile1.Size = new System.Drawing.Size(211, 196);
             this.profile1.TabIndex = 6;
             this.profile1.Load += new System.EventHandler(this.profile1_Load_2);
-            // 
-            // menuPanel21
-            // 
-            this.menuPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.menuPanel21.Location = new System.Drawing.Point(0, 0);
-            this.menuPanel21.Name = "menuPanel21";
-            this.menuPanel21.Size = new System.Drawing.Size(200, 700);
-            this.menuPanel21.TabIndex = 7;
             // 
             // homeForm
             // 
