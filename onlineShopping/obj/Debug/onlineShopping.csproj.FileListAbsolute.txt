@@ -41,3 +41,4 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineS
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.exe
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.pdb
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
