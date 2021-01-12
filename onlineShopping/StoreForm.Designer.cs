@@ -30,7 +30,6 @@ namespace onlineShopping
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StoreForm));
-            this.menuPanel21 = new onlineShopping.menuPanel2();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -79,6 +78,7 @@ namespace onlineShopping
             this.label16 = new System.Windows.Forms.Label();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.storeMenuPanel1 = new onlineShopping.storeMenuPanel();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -97,14 +97,6 @@ namespace onlineShopping
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuPanel21
-            // 
-            this.menuPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.menuPanel21.Location = new System.Drawing.Point(0, 0);
-            this.menuPanel21.Name = "menuPanel21";
-            this.menuPanel21.Size = new System.Drawing.Size(174, 700);
-            this.menuPanel21.TabIndex = 0;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.button1);
@@ -112,19 +104,22 @@ namespace onlineShopping
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(181, 0);
+            this.panel2.Location = new System.Drawing.Point(171, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 358);
+            this.panel2.Size = new System.Drawing.Size(250, 355);
             this.panel2.TabIndex = 15;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(169, 319);
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(134, 319);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 25);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label3
             // 
@@ -134,6 +129,7 @@ namespace onlineShopping
             this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "$7.50";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -144,6 +140,7 @@ namespace onlineShopping
             this.label4.Size = new System.Drawing.Size(203, 42);
             this.label4.TabIndex = 2;
             this.label4.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // checkBox1
             // 
@@ -154,6 +151,7 @@ namespace onlineShopping
             this.checkBox1.TabIndex = 1;
             this.checkBox1.Text = "Add to Cart";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
             // pictureBox2
             // 
@@ -164,6 +162,7 @@ namespace onlineShopping
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // panel1
             // 
@@ -172,19 +171,22 @@ namespace onlineShopping
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(437, 0);
+            this.panel1.Location = new System.Drawing.Point(427, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 358);
+            this.panel1.Size = new System.Drawing.Size(250, 355);
             this.panel1.TabIndex = 16;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(169, 319);
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(134, 319);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 25);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "Add to Cart";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -194,6 +196,7 @@ namespace onlineShopping
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "$7.50";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -204,6 +207,7 @@ namespace onlineShopping
             this.label2.Size = new System.Drawing.Size(203, 42);
             this.label2.TabIndex = 2;
             this.label2.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkBox2
             // 
@@ -214,6 +218,7 @@ namespace onlineShopping
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "Add to Cart";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -224,6 +229,7 @@ namespace onlineShopping
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel3
             // 
@@ -232,19 +238,22 @@ namespace onlineShopping
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.checkBox3);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(693, 0);
+            this.panel3.Location = new System.Drawing.Point(683, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(250, 358);
+            this.panel3.Size = new System.Drawing.Size(250, 355);
             this.panel3.TabIndex = 17;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(169, 319);
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(134, 319);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(100, 25);
             this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
+            this.button3.Text = "Add to Cart";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
             // 
@@ -254,6 +263,7 @@ namespace onlineShopping
             this.label5.Size = new System.Drawing.Size(44, 17);
             this.label5.TabIndex = 3;
             this.label5.Text = "$7.50";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -264,6 +274,7 @@ namespace onlineShopping
             this.label6.Size = new System.Drawing.Size(203, 42);
             this.label6.TabIndex = 2;
             this.label6.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // checkBox3
             // 
@@ -274,6 +285,7 @@ namespace onlineShopping
             this.checkBox3.TabIndex = 1;
             this.checkBox3.Text = "Add to Cart";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // pictureBox3
             // 
@@ -284,6 +296,7 @@ namespace onlineShopping
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // panel4
             // 
@@ -292,19 +305,22 @@ namespace onlineShopping
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.checkBox4);
             this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(949, 0);
+            this.panel4.Location = new System.Drawing.Point(939, 12);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 358);
+            this.panel4.Size = new System.Drawing.Size(250, 355);
             this.panel4.TabIndex = 16;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(169, 319);
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(134, 319);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(100, 25);
             this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
+            this.button4.Text = "Add to Cart";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label7
             // 
@@ -314,6 +330,7 @@ namespace onlineShopping
             this.label7.Size = new System.Drawing.Size(44, 17);
             this.label7.TabIndex = 3;
             this.label7.Text = "$7.50";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -324,6 +341,7 @@ namespace onlineShopping
             this.label8.Size = new System.Drawing.Size(203, 42);
             this.label8.TabIndex = 2;
             this.label8.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // checkBox4
             // 
@@ -334,6 +352,7 @@ namespace onlineShopping
             this.checkBox4.TabIndex = 1;
             this.checkBox4.Text = "Add to Cart";
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // pictureBox4
             // 
@@ -344,6 +363,7 @@ namespace onlineShopping
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // panel5
             // 
@@ -352,19 +372,22 @@ namespace onlineShopping
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.checkBox5);
             this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Location = new System.Drawing.Point(949, 364);
+            this.panel5.Location = new System.Drawing.Point(939, 376);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(250, 358);
+            this.panel5.Size = new System.Drawing.Size(250, 355);
             this.panel5.TabIndex = 19;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(169, 319);
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(134, 319);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(100, 25);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "Add to Cart";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label9
             // 
@@ -374,6 +397,7 @@ namespace onlineShopping
             this.label9.Size = new System.Drawing.Size(44, 17);
             this.label9.TabIndex = 3;
             this.label9.Text = "$7.50";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -384,6 +408,7 @@ namespace onlineShopping
             this.label10.Size = new System.Drawing.Size(203, 42);
             this.label10.TabIndex = 2;
             this.label10.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // checkBox5
             // 
@@ -394,6 +419,7 @@ namespace onlineShopping
             this.checkBox5.TabIndex = 1;
             this.checkBox5.Text = "Add to Cart";
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // pictureBox5
             // 
@@ -404,6 +430,7 @@ namespace onlineShopping
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // panel6
             // 
@@ -412,19 +439,22 @@ namespace onlineShopping
             this.panel6.Controls.Add(this.label12);
             this.panel6.Controls.Add(this.checkBox6);
             this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Location = new System.Drawing.Point(693, 364);
+            this.panel6.Location = new System.Drawing.Point(683, 376);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(250, 358);
+            this.panel6.Size = new System.Drawing.Size(250, 355);
             this.panel6.TabIndex = 21;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(169, 319);
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(134, 319);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(100, 25);
             this.button6.TabIndex = 4;
-            this.button6.Text = "button6";
+            this.button6.Text = "Add to Cart";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label11
             // 
@@ -434,6 +464,7 @@ namespace onlineShopping
             this.label11.Size = new System.Drawing.Size(44, 17);
             this.label11.TabIndex = 3;
             this.label11.Text = "$7.50";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -444,6 +475,7 @@ namespace onlineShopping
             this.label12.Size = new System.Drawing.Size(203, 42);
             this.label12.TabIndex = 2;
             this.label12.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // checkBox6
             // 
@@ -454,6 +486,7 @@ namespace onlineShopping
             this.checkBox6.TabIndex = 1;
             this.checkBox6.Text = "Add to Cart";
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // pictureBox6
             // 
@@ -464,6 +497,7 @@ namespace onlineShopping
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // panel7
             // 
@@ -472,19 +506,22 @@ namespace onlineShopping
             this.panel7.Controls.Add(this.label14);
             this.panel7.Controls.Add(this.checkBox7);
             this.panel7.Controls.Add(this.pictureBox7);
-            this.panel7.Location = new System.Drawing.Point(437, 364);
+            this.panel7.Location = new System.Drawing.Point(427, 376);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(250, 358);
+            this.panel7.Size = new System.Drawing.Size(250, 355);
             this.panel7.TabIndex = 20;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(169, 319);
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(134, 319);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(100, 25);
             this.button7.TabIndex = 4;
-            this.button7.Text = "button7";
+            this.button7.Text = "Add to Cart";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label13
             // 
@@ -494,6 +531,7 @@ namespace onlineShopping
             this.label13.Size = new System.Drawing.Size(44, 17);
             this.label13.TabIndex = 3;
             this.label13.Text = "$7.50";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
@@ -504,6 +542,7 @@ namespace onlineShopping
             this.label14.Size = new System.Drawing.Size(203, 42);
             this.label14.TabIndex = 2;
             this.label14.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // checkBox7
             // 
@@ -514,6 +553,7 @@ namespace onlineShopping
             this.checkBox7.TabIndex = 1;
             this.checkBox7.Text = "Add to Cart";
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // pictureBox7
             // 
@@ -524,6 +564,7 @@ namespace onlineShopping
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // panel8
             // 
@@ -532,19 +573,22 @@ namespace onlineShopping
             this.panel8.Controls.Add(this.label16);
             this.panel8.Controls.Add(this.checkBox8);
             this.panel8.Controls.Add(this.pictureBox8);
-            this.panel8.Location = new System.Drawing.Point(181, 364);
+            this.panel8.Location = new System.Drawing.Point(171, 376);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(250, 358);
+            this.panel8.Size = new System.Drawing.Size(250, 355);
             this.panel8.TabIndex = 18;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(169, 319);
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(134, 319);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(100, 25);
             this.button8.TabIndex = 4;
-            this.button8.Text = "button8";
+            this.button8.Text = "Add to Cart";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label15
             // 
@@ -554,6 +598,7 @@ namespace onlineShopping
             this.label15.Size = new System.Drawing.Size(44, 17);
             this.label15.TabIndex = 3;
             this.label15.Text = "$7.50";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
             // 
@@ -564,6 +609,7 @@ namespace onlineShopping
             this.label16.Size = new System.Drawing.Size(203, 42);
             this.label16.TabIndex = 2;
             this.label16.Text = "Aspirini ndihmon per te\r\nzvogluar koke dhimbjet";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // checkBox8
             // 
@@ -574,6 +620,7 @@ namespace onlineShopping
             this.checkBox8.TabIndex = 1;
             this.checkBox8.Text = "Add to Cart";
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // pictureBox8
             // 
@@ -584,12 +631,23 @@ namespace onlineShopping
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // storeMenuPanel1
+            // 
+            this.storeMenuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.storeMenuPanel1.Location = new System.Drawing.Point(0, 0);
+            this.storeMenuPanel1.Name = "storeMenuPanel1";
+            this.storeMenuPanel1.Size = new System.Drawing.Size(165, 700);
+            this.storeMenuPanel1.TabIndex = 22;
+            this.storeMenuPanel1.Load += new System.EventHandler(this.storeMenuPanel1_Load);
             // 
             // StoreForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.storeMenuPanel1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
@@ -598,7 +656,6 @@ namespace onlineShopping
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.menuPanel21);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StoreForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -632,8 +689,6 @@ namespace onlineShopping
         }
 
         #endregion
-
-        private menuPanel2 menuPanel21;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
@@ -682,5 +737,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private storeMenuPanel storeMenuPanel1;
     }
 }
