@@ -35,8 +35,9 @@ namespace onlineShopping
             this.profileButton = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
-            this.profile1 = new onlineShopping.profile();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.profile1 = new onlineShopping.profile();
+            this.menuPanel21 = new onlineShopping.menuPanel2();
             this.SuspendLayout();
             // 
             // minButton
@@ -105,6 +106,12 @@ namespace onlineShopping
             this.offButton.UseVisualStyleBackColor = false;
             this.offButton.Click += new System.EventHandler(this.offButton_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // profile1
             // 
             this.profile1.BackColor = System.Drawing.Color.Transparent;
@@ -115,11 +122,13 @@ namespace onlineShopping
             this.profile1.TabIndex = 6;
             this.profile1.Load += new System.EventHandler(this.profile1_Load_2);
             // 
-            // contextMenuStrip1
+            // menuPanel21
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.menuPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.menuPanel21.Location = new System.Drawing.Point(0, 0);
+            this.menuPanel21.Name = "menuPanel21";
+            this.menuPanel21.Size = new System.Drawing.Size(200, 700);
+            this.menuPanel21.TabIndex = 7;
             // 
             // homeForm
             // 
@@ -128,6 +137,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.menuPanel21);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.profileButton);
@@ -149,6 +159,7 @@ namespace onlineShopping
         private profile profile1;
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private menuPanel2 menuPanel21;
         //private menuPanel menuPanel2;
     }
 }
