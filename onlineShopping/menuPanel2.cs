@@ -40,5 +40,12 @@ namespace onlineShopping
             store.Show();
             this.Hide();
         }
+
+        private void profilesButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            profileForm profile = new profileForm();
+            profile.Show();
+        }
     }
 }
