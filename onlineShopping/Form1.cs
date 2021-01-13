@@ -29,11 +29,6 @@ namespace onlineShopping
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void homeForm_Load(object sender, EventArgs e)
         {
             
@@ -58,12 +53,6 @@ namespace onlineShopping
         {
 
         }
-
-        private void scrollButton_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 

@@ -104,7 +104,7 @@ namespace onlineShopping
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(171, 12);
+            this.panel2.Location = new System.Drawing.Point(172, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(250, 355);
             this.panel2.TabIndex = 15;
@@ -171,7 +171,7 @@ namespace onlineShopping
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(427, 12);
+            this.panel1.Location = new System.Drawing.Point(428, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 355);
             this.panel1.TabIndex = 16;
@@ -238,7 +238,7 @@ namespace onlineShopping
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.checkBox3);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(683, 12);
+            this.panel3.Location = new System.Drawing.Point(684, 12);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(250, 355);
             this.panel3.TabIndex = 17;
@@ -305,7 +305,7 @@ namespace onlineShopping
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.checkBox4);
             this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Location = new System.Drawing.Point(939, 12);
+            this.panel4.Location = new System.Drawing.Point(940, 12);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(250, 355);
             this.panel4.TabIndex = 16;
@@ -372,7 +372,7 @@ namespace onlineShopping
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.checkBox5);
             this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Location = new System.Drawing.Point(939, 376);
+            this.panel5.Location = new System.Drawing.Point(940, 376);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 355);
             this.panel5.TabIndex = 19;
@@ -439,7 +439,7 @@ namespace onlineShopping
             this.panel6.Controls.Add(this.label12);
             this.panel6.Controls.Add(this.checkBox6);
             this.panel6.Controls.Add(this.pictureBox6);
-            this.panel6.Location = new System.Drawing.Point(683, 376);
+            this.panel6.Location = new System.Drawing.Point(684, 376);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(250, 355);
             this.panel6.TabIndex = 21;
@@ -506,7 +506,7 @@ namespace onlineShopping
             this.panel7.Controls.Add(this.label14);
             this.panel7.Controls.Add(this.checkBox7);
             this.panel7.Controls.Add(this.pictureBox7);
-            this.panel7.Location = new System.Drawing.Point(427, 376);
+            this.panel7.Location = new System.Drawing.Point(428, 376);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(250, 355);
             this.panel7.TabIndex = 20;
@@ -573,7 +573,7 @@ namespace onlineShopping
             this.panel8.Controls.Add(this.label16);
             this.panel8.Controls.Add(this.checkBox8);
             this.panel8.Controls.Add(this.pictureBox8);
-            this.panel8.Location = new System.Drawing.Point(171, 376);
+            this.panel8.Location = new System.Drawing.Point(172, 376);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(250, 355);
             this.panel8.TabIndex = 18;
@@ -636,9 +636,9 @@ namespace onlineShopping
             // storeMenuPanel1
             // 
             this.storeMenuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.storeMenuPanel1.Location = new System.Drawing.Point(0, 0);
+            this.storeMenuPanel1.Location = new System.Drawing.Point(1, 0);
             this.storeMenuPanel1.Name = "storeMenuPanel1";
-            this.storeMenuPanel1.Size = new System.Drawing.Size(165, 700);
+            this.storeMenuPanel1.Size = new System.Drawing.Size(165, 752);
             this.storeMenuPanel1.TabIndex = 22;
             this.storeMenuPanel1.Load += new System.EventHandler(this.storeMenuPanel1_Load);
             // 
