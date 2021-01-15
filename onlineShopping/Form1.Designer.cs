@@ -82,6 +82,7 @@ namespace onlineShopping
             this.menuButton.FlatAppearance.BorderSize = 0;
             this.menuButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.menuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
             this.menuButton.Location = new System.Drawing.Point(10, 10);
             this.menuButton.Name = "menuButton";
             this.menuButton.Size = new System.Drawing.Size(50, 50);
@@ -141,6 +142,7 @@ namespace onlineShopping
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 700);
             this.Controls.Add(this.menuPanel21);
             this.Controls.Add(this.profile1);
