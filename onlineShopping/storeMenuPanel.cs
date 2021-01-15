@@ -26,11 +26,11 @@ namespace onlineShopping
 
         private void homeButton_Click(object sender, EventArgs e)
         {
-            homeForm home = new homeForm();
-            home.Show();
+           // homeForm home = new homeForm();
+            //home.Show();
             StoreForm store = new StoreForm();
-            store.Hide();
-            this.Hide();
+            store.Close();
+            //this.Hide();
         }
 
         private void storesButton_Click(object sender, EventArgs e)
