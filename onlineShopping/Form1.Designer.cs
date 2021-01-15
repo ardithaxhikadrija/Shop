@@ -36,6 +36,7 @@ namespace onlineShopping
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.profileControl1 = new onlineShopping.profileControl();
             this.menuPanel21 = new onlineShopping.menuPanel2();
             this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
@@ -50,7 +51,7 @@ namespace onlineShopping
             this.minButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.minButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minButton.Image = ((System.Drawing.Image)(resources.GetObject("minButton.Image")));
-            this.minButton.Location = new System.Drawing.Point(1125, 0);
+            this.minButton.Location = new System.Drawing.Point(1113, 0);
             this.minButton.Name = "minButton";
             this.minButton.Size = new System.Drawing.Size(30, 30);
             this.minButton.TabIndex = 1;
@@ -67,7 +68,7 @@ namespace onlineShopping
             this.profileButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.profileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.profileButton.Image = ((System.Drawing.Image)(resources.GetObject("profileButton.Image")));
-            this.profileButton.Location = new System.Drawing.Point(1085, 0);
+            this.profileButton.Location = new System.Drawing.Point(1073, 0);
             this.profileButton.Name = "profileButton";
             this.profileButton.Size = new System.Drawing.Size(30, 30);
             this.profileButton.TabIndex = 2;
@@ -99,7 +100,7 @@ namespace onlineShopping
             this.offButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.offButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.offButton.Image = ((System.Drawing.Image)(resources.GetObject("offButton.Image")));
-            this.offButton.Location = new System.Drawing.Point(1165, 0);
+            this.offButton.Location = new System.Drawing.Point(1153, 0);
             this.offButton.Name = "offButton";
             this.offButton.Size = new System.Drawing.Size(30, 30);
             this.offButton.TabIndex = 0;
@@ -111,6 +112,14 @@ namespace onlineShopping
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // profileControl1
+            // 
+            this.profileControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.profileControl1.Location = new System.Drawing.Point(188, 132);
+            this.profileControl1.Name = "profileControl1";
+            this.profileControl1.Size = new System.Drawing.Size(1000, 700);
+            this.profileControl1.TabIndex = 8;
             // 
             // menuPanel21
             // 
@@ -138,6 +147,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.profileControl1);
             this.Controls.Add(this.menuPanel21);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
@@ -161,6 +171,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private menuPanel2 menuPanel21;
+        private profileControl profileControl1;
         //private menuPanel menuPanel2;
     }
 }

@@ -12,6 +12,7 @@ namespace onlineShopping
 {
     public partial class menuPanel2 : UserControl
     {
+
         public menuPanel2()
         {
             InitializeComponent();
@@ -43,9 +44,7 @@ namespace onlineShopping
 
         private void profilesButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            profileForm profile = new profileForm();
-            profile.Show();
+            
         }
     }
 }
