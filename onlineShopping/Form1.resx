@@ -138,6 +138,13 @@
         IyyZzBcUyp5xDHGGnAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="menuButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAEFJREFUSEvt
+        0zEKACAMQ9He/1CCXsshZig4C63Tf5ClS5Y0AJSTtJxuM+suH7uLtzOyDvjAi+OdgBpeHO8E4EHEAeBq
+        arjdxuERAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="offButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAj1JREFUSEut

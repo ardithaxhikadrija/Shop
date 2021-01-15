@@ -129,6 +129,8 @@ namespace onlineShopping
             this.aboutusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutusButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
+            this.aboutusButton.Image = ((System.Drawing.Image)(resources.GetObject("aboutusButton.Image")));
+            this.aboutusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.aboutusButton.Location = new System.Drawing.Point(0, 380);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(265, 75);
