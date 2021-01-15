@@ -41,6 +41,6 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineS
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileControl.resources
-C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeUserControl.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.storeUserControl.resources
