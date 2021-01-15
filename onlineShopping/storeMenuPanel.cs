@@ -29,7 +29,7 @@ namespace onlineShopping
             homeForm home = new homeForm();
             home.Show();
             StoreForm store = new StoreForm();
-            store.Close();
+            store.Hide();
             this.Hide();
         }
 
