@@ -36,6 +36,8 @@ namespace onlineShopping
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.usersTableAdapter1 = new onlineShopping.AppDataSetTableAdapters.UsersTableAdapter();
+            this.menuPanel21 = new onlineShopping.menuPanel2();
             this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
             // 
@@ -110,6 +112,19 @@ namespace onlineShopping
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // usersTableAdapter1
+            // 
+            this.usersTableAdapter1.ClearBeforeFill = true;
+            // 
+            // menuPanel21
+            // 
+            this.menuPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            this.menuPanel21.Location = new System.Drawing.Point(0, 0);
+            this.menuPanel21.Name = "menuPanel21";
+            this.menuPanel21.Size = new System.Drawing.Size(200, 700);
+            this.menuPanel21.TabIndex = 7;
+            this.menuPanel21.Load += new System.EventHandler(this.menuPanel21_Load);
+            // 
             // profile1
             // 
             this.profile1.BackColor = System.Drawing.Color.Transparent;
@@ -127,6 +142,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.menuPanel21);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
             this.Controls.Add(this.profileButton);
@@ -148,6 +164,8 @@ namespace onlineShopping
         private profile profile1;
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private menuPanel2 menuPanel21;
+        private AppDataSetTableAdapters.UsersTableAdapter usersTableAdapter1;
         // private profileControl profileControl1;
         //private menuPanel menuPanel2;
     }
