@@ -104,12 +104,6 @@
     <Compile Include="profile.Designer.cs">
       <DependentUpon>profile.cs</DependentUpon>
     </Compile>
-    <Compile Include="profileControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="profileControl.Designer.cs">
-      <DependentUpon>profileControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp.cs">
@@ -152,9 +146,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="profileControl.resx">
-      <DependentUpon>profileControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

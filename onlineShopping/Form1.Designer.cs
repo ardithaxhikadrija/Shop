@@ -36,7 +36,7 @@ namespace onlineShopping
             this.menuButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.profileControl1 = new onlineShopping.profileControl();
+           // this.profileControl1 = new onlineShopping.profileControl();
             this.menuPanel21 = new onlineShopping.menuPanel2();
             this.profile1 = new onlineShopping.profile();
             this.SuspendLayout();
@@ -115,11 +115,11 @@ namespace onlineShopping
             // 
             // profileControl1
             // 
-            this.profileControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.profileControl1.Location = new System.Drawing.Point(188, 132);
-            this.profileControl1.Name = "profileControl1";
-            this.profileControl1.Size = new System.Drawing.Size(1000, 700);
-            this.profileControl1.TabIndex = 8;
+            //this.profileControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
+            //this.profileControl1.Location = new System.Drawing.Point(188, 132);
+            //this.profileControl1.Name = "profileControl1";
+            //this.profileControl1.Size = new System.Drawing.Size(1000, 700);
+            //this.profileControl1.TabIndex = 8;
             // 
             // menuPanel21
             // 
@@ -147,7 +147,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.profileControl1);
+            //this.Controls.Add(this.profileControl1);
             this.Controls.Add(this.menuPanel21);
             this.Controls.Add(this.profile1);
             this.Controls.Add(this.menuButton);
@@ -171,7 +171,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button offButton;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private menuPanel2 menuPanel21;
-        private profileControl profileControl1;
+       // private profileControl profileControl1;
         //private menuPanel menuPanel2;
     }
 }

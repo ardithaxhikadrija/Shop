@@ -279,5 +279,10 @@ namespace onlineShopping
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

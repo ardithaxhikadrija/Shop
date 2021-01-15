@@ -78,7 +78,7 @@ namespace onlineShopping
             this.label16 = new System.Windows.Forms.Label();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.storeMenuPanel1 = new onlineShopping.storeMenuPanel();
+            this.button9 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -633,21 +633,22 @@ namespace onlineShopping
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
-            // storeMenuPanel1
+            // button9
             // 
-            this.storeMenuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.storeMenuPanel1.Location = new System.Drawing.Point(1, 0);
-            this.storeMenuPanel1.Name = "storeMenuPanel1";
-            this.storeMenuPanel1.Size = new System.Drawing.Size(165, 752);
-            this.storeMenuPanel1.TabIndex = 22;
-            this.storeMenuPanel1.Load += new System.EventHandler(this.storeMenuPanel1_Load);
+            this.button9.Location = new System.Drawing.Point(28, 64);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 22;
+            this.button9.Text = "button9";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // StoreForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.storeMenuPanel1);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
@@ -737,6 +738,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private storeMenuPanel storeMenuPanel1;
+        private System.Windows.Forms.Button button9;
     }
 }
