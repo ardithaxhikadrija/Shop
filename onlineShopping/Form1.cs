@@ -17,6 +17,7 @@ namespace onlineShopping
             InitializeComponent();
             profile1.Hide();
             menuPanel21.Hide();
+            profileControl1.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)

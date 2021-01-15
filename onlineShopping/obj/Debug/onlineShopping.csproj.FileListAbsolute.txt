@@ -10,7 +10,6 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.hom
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.LogIn.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.menuPanel2.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profile.resources
-C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.Properties.Resources.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.SignUp.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
@@ -42,6 +41,7 @@ C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineS
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.pdb
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.storeMenuPanel.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileControl.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
 C:\Users\ardit\source\repos\onlineShopping\Shop\onlineShopping\obj\Debug\onlineShopping.storeUserControl.resources
