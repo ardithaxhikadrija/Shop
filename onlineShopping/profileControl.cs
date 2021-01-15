@@ -15,7 +15,6 @@ namespace onlineShopping
         public profileControl()
         {
             InitializeComponent();
-            this.BackColor = Color.FromArgb(75, Color.MidnightBlue);
         }
 
         private void profileControl_Load(object sender, EventArgs e)

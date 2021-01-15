@@ -35,13 +35,14 @@ namespace onlineShopping
             this.profileButton = new System.Windows.Forms.Button();
             this.offButton = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.profile1 = new onlineShopping.profile();
             this.homeButton = new System.Windows.Forms.Button();
             this.storeButton = new System.Windows.Forms.Button();
             this.cartButton = new System.Windows.Forms.Button();
             this.ordersButton = new System.Windows.Forms.Button();
             this.profilesButton = new System.Windows.Forms.Button();
             this.aboutusButton = new System.Windows.Forms.Button();
+            this.profile1 = new onlineShopping.profile();
+            this.profileControl1 = new onlineShopping.profileControl();
             this.SuspendLayout();
             // 
             // minButton
@@ -101,16 +102,6 @@ namespace onlineShopping
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // profile1
-            // 
-            this.profile1.BackColor = System.Drawing.Color.Transparent;
-            this.profile1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profile1.Location = new System.Drawing.Point(904, 50);
-            this.profile1.Name = "profile1";
-            this.profile1.Size = new System.Drawing.Size(211, 196);
-            this.profile1.TabIndex = 6;
-            this.profile1.Load += new System.EventHandler(this.profile1_Load_2);
-            // 
             // homeButton
             // 
             this.homeButton.BackColor = System.Drawing.Color.Transparent;
@@ -128,6 +119,7 @@ namespace onlineShopping
             this.homeButton.TabIndex = 7;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = false;
+            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
             // storeButton
             // 
@@ -200,6 +192,7 @@ namespace onlineShopping
             this.profilesButton.TabIndex = 11;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = false;
+            this.profilesButton.Click += new System.EventHandler(this.profilesButton_Click);
             // 
             // aboutusButton
             // 
@@ -219,6 +212,26 @@ namespace onlineShopping
             this.aboutusButton.Text = "About Us";
             this.aboutusButton.UseVisualStyleBackColor = false;
             // 
+            // profile1
+            // 
+            this.profile1.BackColor = System.Drawing.Color.Transparent;
+            this.profile1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profile1.Location = new System.Drawing.Point(904, 50);
+            this.profile1.Name = "profile1";
+            this.profile1.Size = new System.Drawing.Size(211, 196);
+            this.profile1.TabIndex = 6;
+            this.profile1.Load += new System.EventHandler(this.profile1_Load_2);
+            // 
+            // profileControl1
+            // 
+            this.profileControl1.BackColor = System.Drawing.Color.Transparent;
+            this.profileControl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("profileControl1.BackgroundImage")));
+            this.profileControl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.profileControl1.Location = new System.Drawing.Point(200, 0);
+            this.profileControl1.Name = "profileControl1";
+            this.profileControl1.Size = new System.Drawing.Size(1000, 700);
+            this.profileControl1.TabIndex = 13;
+            // 
             // homeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -226,6 +239,7 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.profileControl1);
             this.Controls.Add(this.aboutusButton);
             this.Controls.Add(this.profilesButton);
             this.Controls.Add(this.ordersButton);
@@ -257,6 +271,7 @@ namespace onlineShopping
         private System.Windows.Forms.Button ordersButton;
         private System.Windows.Forms.Button profilesButton;
         private System.Windows.Forms.Button aboutusButton;
+        private profileControl profileControl1;
         //private menuPanel menuPanel2;
     }
 }

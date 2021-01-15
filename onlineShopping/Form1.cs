@@ -30,7 +30,7 @@ namespace onlineShopping
 
         private void homeForm_Load(object sender, EventArgs e)
         {
-            
+            profileControl1.Hide();
         }
 
         private void profile1_Load(object sender, EventArgs e)
@@ -77,6 +77,16 @@ namespace onlineShopping
         private void menuPanel21_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void profilesButton_Click(object sender, EventArgs e)
+        {
+            profileControl1.Show();
+        }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            profileControl1.Hide();
         }
     }
 }

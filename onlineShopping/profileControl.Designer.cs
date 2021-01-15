@@ -29,6 +29,7 @@ namespace onlineShopping
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profileControl));
             this.profileLabel = new System.Windows.Forms.Label();
             this.emriLabel = new System.Windows.Forms.Label();
             this.miemriLabel = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@ namespace onlineShopping
             this.profileLabel.ForeColor = System.Drawing.Color.White;
             this.profileLabel.Location = new System.Drawing.Point(350, 0);
             this.profileLabel.Name = "profileLabel";
-            this.profileLabel.Size = new System.Drawing.Size(161, 53);
+            this.profileLabel.Size = new System.Drawing.Size(158, 52);
             this.profileLabel.TabIndex = 0;
             this.profileLabel.Text = "Profile";
             this.profileLabel.Click += new System.EventHandler(this.label1_Click);
@@ -133,7 +134,9 @@ namespace onlineShopping
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.lokacioniLabel);
             this.Controls.Add(this.kartelaLabel);
             this.Controls.Add(this.adresaLabel);
