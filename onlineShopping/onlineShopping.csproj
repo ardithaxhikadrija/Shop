@@ -130,6 +130,12 @@
     <Compile Include="storeMenuPanel.Designer.cs">
       <DependentUpon>storeMenuPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="storeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="storeUserControl.Designer.cs">
+      <DependentUpon>storeUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserRepository.cs" />
     <EmbeddedResource Include="demoControl.resx">
@@ -168,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="storeMenuPanel.resx">
       <DependentUpon>storeMenuPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storeUserControl.resx">
+      <DependentUpon>storeUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="AppDataSet.xsc">
       <DependentUpon>AppDataSet.xsd</DependentUpon>
