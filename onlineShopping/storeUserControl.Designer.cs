@@ -51,7 +51,6 @@ namespace onlineShopping
             this.label16 = new System.Windows.Forms.Label();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.storeMenuPanel1 = new onlineShopping.storeMenuPanel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -301,11 +300,6 @@ namespace onlineShopping
             // 
             // storeMenuPanel1
             // 
-            this.storeMenuPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(112)))));
-            this.storeMenuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.storeMenuPanel1.Name = "storeMenuPanel1";
-            this.storeMenuPanel1.Size = new System.Drawing.Size(165, 752);
-            this.storeMenuPanel1.TabIndex = 31;
             // 
             // panel5
             // 
@@ -589,7 +583,6 @@ namespace onlineShopping
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.storeMenuPanel1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel8);
@@ -651,7 +644,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private storeMenuPanel storeMenuPanel1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;

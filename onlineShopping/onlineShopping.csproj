@@ -118,12 +118,6 @@
     <Compile Include="StoreForm.Designer.cs">
       <DependentUpon>StoreForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="storeMenuPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="storeMenuPanel.Designer.cs">
-      <DependentUpon>storeMenuPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="storeUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -162,9 +156,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StoreForm.resx">
       <DependentUpon>StoreForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="storeMenuPanel.resx">
-      <DependentUpon>storeMenuPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="storeUserControl.resx">
       <DependentUpon>storeUserControl.cs</DependentUpon>

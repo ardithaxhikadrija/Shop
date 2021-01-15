@@ -661,6 +661,7 @@ namespace onlineShopping
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(175, 730);
             this.panel9.TabIndex = 22;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // aboutusButton
             // 
