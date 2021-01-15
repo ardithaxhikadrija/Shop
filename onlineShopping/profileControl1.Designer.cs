@@ -34,6 +34,12 @@ namespace onlineShopping
             this.profileLabel = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.mbiemriLabel = new System.Windows.Forms.Label();
+            this.emailLabel = new System.Windows.Forms.Label();
+            this.nrtelLabel = new System.Windows.Forms.Label();
+            this.adresaLabel = new System.Windows.Forms.Label();
+            this.lokacioniLabel = new System.Windows.Forms.Label();
+            this.kartelaLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // profileLabel
@@ -57,12 +63,78 @@ namespace onlineShopping
             // 
             this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(379, 202);
+            this.label1.Location = new System.Drawing.Point(100, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(300, 35);
             this.label1.TabIndex = 3;
             this.label1.Text = "Emri:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // mbiemriLabel
+            // 
+            this.mbiemriLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mbiemriLabel.ForeColor = System.Drawing.Color.White;
+            this.mbiemriLabel.Location = new System.Drawing.Point(100, 140);
+            this.mbiemriLabel.Name = "mbiemriLabel";
+            this.mbiemriLabel.Size = new System.Drawing.Size(300, 35);
+            this.mbiemriLabel.TabIndex = 4;
+            this.mbiemriLabel.Text = "Mbiemri:";
+            this.mbiemriLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emailLabel
+            // 
+            this.emailLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailLabel.ForeColor = System.Drawing.Color.White;
+            this.emailLabel.Location = new System.Drawing.Point(100, 180);
+            this.emailLabel.Name = "emailLabel";
+            this.emailLabel.Size = new System.Drawing.Size(300, 35);
+            this.emailLabel.TabIndex = 5;
+            this.emailLabel.Text = "e-Mail:";
+            this.emailLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nrtelLabel
+            // 
+            this.nrtelLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nrtelLabel.ForeColor = System.Drawing.Color.White;
+            this.nrtelLabel.Location = new System.Drawing.Point(100, 220);
+            this.nrtelLabel.Name = "nrtelLabel";
+            this.nrtelLabel.Size = new System.Drawing.Size(300, 35);
+            this.nrtelLabel.TabIndex = 6;
+            this.nrtelLabel.Text = "Numri i telefonit:";
+            this.nrtelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // adresaLabel
+            // 
+            this.adresaLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adresaLabel.ForeColor = System.Drawing.Color.White;
+            this.adresaLabel.Location = new System.Drawing.Point(100, 260);
+            this.adresaLabel.Name = "adresaLabel";
+            this.adresaLabel.Size = new System.Drawing.Size(300, 35);
+            this.adresaLabel.TabIndex = 7;
+            this.adresaLabel.Text = "Adresa:";
+            this.adresaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lokacioniLabel
+            // 
+            this.lokacioniLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lokacioniLabel.ForeColor = System.Drawing.Color.White;
+            this.lokacioniLabel.Location = new System.Drawing.Point(100, 300);
+            this.lokacioniLabel.Name = "lokacioniLabel";
+            this.lokacioniLabel.Size = new System.Drawing.Size(300, 35);
+            this.lokacioniLabel.TabIndex = 8;
+            this.lokacioniLabel.Text = "Lokacioni në hartë:";
+            this.lokacioniLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // kartelaLabel
+            // 
+            this.kartelaLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kartelaLabel.ForeColor = System.Drawing.Color.White;
+            this.kartelaLabel.Location = new System.Drawing.Point(100, 340);
+            this.kartelaLabel.Name = "kartelaLabel";
+            this.kartelaLabel.Size = new System.Drawing.Size(300, 35);
+            this.kartelaLabel.TabIndex = 9;
+            this.kartelaLabel.Text = "Kartela:";
+            this.kartelaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // profileControl1
             // 
@@ -71,6 +143,12 @@ namespace onlineShopping
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.kartelaLabel);
+            this.Controls.Add(this.lokacioniLabel);
+            this.Controls.Add(this.adresaLabel);
+            this.Controls.Add(this.nrtelLabel);
+            this.Controls.Add(this.emailLabel);
+            this.Controls.Add(this.mbiemriLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.profileLabel);
             this.Name = "profileControl1";
@@ -85,5 +163,11 @@ namespace onlineShopping
         private System.Windows.Forms.Label profileLabel;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label mbiemriLabel;
+        private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.Label nrtelLabel;
+        private System.Windows.Forms.Label adresaLabel;
+        private System.Windows.Forms.Label lokacioniLabel;
+        private System.Windows.Forms.Label kartelaLabel;
     }
 }
