@@ -33,13 +33,13 @@ namespace onlineShopping
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.aspirinLabel = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.vitaminaLabel = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -109,7 +109,7 @@ namespace onlineShopping
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.aspirinLabel);
             this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(176, 12);
@@ -139,16 +139,16 @@ namespace onlineShopping
             this.label3.Text = "$7.50";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // aspirinLabel
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(9, 232);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 21);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Aspirin";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.aspirinLabel.AutoSize = true;
+            this.aspirinLabel.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aspirinLabel.Location = new System.Drawing.Point(9, 232);
+            this.aspirinLabel.Name = "aspirinLabel";
+            this.aspirinLabel.Size = new System.Drawing.Size(63, 21);
+            this.aspirinLabel.TabIndex = 2;
+            this.aspirinLabel.Text = "Aspirin";
+            this.aspirinLabel.Click += new System.EventHandler(this.label4_Click);
             // 
             // checkBox1
             // 
@@ -176,7 +176,7 @@ namespace onlineShopping
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.vitaminaLabel);
             this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(426, 12);
@@ -206,16 +206,16 @@ namespace onlineShopping
             this.label1.Text = "$4.50";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // vitaminaLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 232);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Vitamina C";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.vitaminaLabel.AutoSize = true;
+            this.vitaminaLabel.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vitaminaLabel.Location = new System.Drawing.Point(9, 232);
+            this.vitaminaLabel.Name = "vitaminaLabel";
+            this.vitaminaLabel.Size = new System.Drawing.Size(104, 21);
+            this.vitaminaLabel.TabIndex = 2;
+            this.vitaminaLabel.Text = "Vitamina C";
+            this.vitaminaLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // checkBox2
             // 
@@ -804,13 +804,10 @@ namespace onlineShopping
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
@@ -856,5 +853,8 @@ namespace onlineShopping
         private System.Windows.Forms.Button cartButton;
         private System.Windows.Forms.Button storesButton;
         private System.Windows.Forms.Button homeButton;
+        public System.Windows.Forms.Label aspirinLabel;
+        public System.Windows.Forms.Label vitaminaLabel;
+        public System.Windows.Forms.CheckBox checkBox1;
     }
 }

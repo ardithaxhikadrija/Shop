@@ -31,6 +31,8 @@ namespace onlineShopping
         private void button1_Click_1(object sender, EventArgs e)
         {
             checkBox1.Checked = true;
+            CartForm cf = new CartForm(this);
+            //cf.ShowDialog();
         }
 
         private void storeMenuPanel1_Load(object sender, EventArgs e)
@@ -41,7 +43,7 @@ namespace onlineShopping
         private void button2_Click(object sender, EventArgs e)
         {
             checkBox2.Checked = true;
-
+            CartForm cf = new CartForm(this);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -295,14 +297,10 @@ namespace onlineShopping
 
         }
 
-        private void storesButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void cartButton_Click(object sender, EventArgs e)
         {
-
+            CartForm cart = new CartForm(this);
+            cart.ShowDialog();
         }
     }
 }
