@@ -92,6 +92,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="IUserRepository.cs" />
+    <Compile Include="kartelaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="kartelaControl.Designer.cs">
+      <DependentUpon>kartelaControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kartelaControl.resx">
+      <DependentUpon>kartelaControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
