@@ -31,7 +31,6 @@ namespace onlineShopping
         private void homeForm_Load(object sender, EventArgs e)
         {
             menuPanel21.Hide();
-            profileControl1.Hide();
         }
 
         private void profile1_Load(object sender, EventArgs e)

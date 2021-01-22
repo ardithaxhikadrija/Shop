@@ -16,5 +16,10 @@ namespace onlineShopping
         {
             InitializeComponent();
         }
+
+        private void profileControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

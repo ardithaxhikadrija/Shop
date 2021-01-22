@@ -153,6 +153,7 @@ namespace onlineShopping
             this.Controls.Add(this.profileLabel);
             this.Name = "profileControl1";
             this.Size = new System.Drawing.Size(1000, 700);
+            this.Load += new System.EventHandler(this.profileControl1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
