@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace onlineShopping
 {
     partial class StoreForm
@@ -798,6 +800,11 @@ namespace onlineShopping
             this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
 
+        }
+
+        private void storesButton_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

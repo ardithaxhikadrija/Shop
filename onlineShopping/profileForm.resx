@@ -138,10 +138,10 @@
   </data>
   <data name="aboutusButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACJSURBVEhL7dRBCoAwDATAvq+v8ugnlSJ+Q+vWLkRBqdUELx3IZRs24EHXPBZj9JgR89WA8awV
-        CMP+rCOwViBc8psO1gpk/x/gatot4qpA9v+BGqwVyMwPrPnpHldff6J24ISrAlnxQA3WCmTmBzRNrBV8
-        0DBjLn/XRz1jPSxOOka6TMsT03I7zm0DQu5nmSs4QAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAIlJREFUSEvt
+        1EEKgDAMBMC+r6/y6CeVIn5D69YuREGp1QQvHchlGzbgQdc8FmP0mBHz1YDxrBUIw/6sI7BWIFzymw7W
+        CmT/H+Bq2i3iqkD2/4EarBXIzA+s+ekeV19/onbghKsCWfFADdYKZOYHNE2sFXzQMGMuf9dHPWM9LE46
+        RrpMyxPTcjvObQNC7meZKzhAAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="profilesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

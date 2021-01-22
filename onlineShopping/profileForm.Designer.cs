@@ -266,6 +266,7 @@ namespace onlineShopping
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(500, 33);
             this.textBox1.TabIndex = 23;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
             // 
@@ -277,6 +278,7 @@ namespace onlineShopping
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(500, 33);
             this.textBox2.TabIndex = 24;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
@@ -288,6 +290,7 @@ namespace onlineShopping
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(500, 33);
             this.textBox3.TabIndex = 25;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox4
             // 
@@ -299,6 +302,7 @@ namespace onlineShopping
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(500, 33);
             this.textBox4.TabIndex = 26;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox5
             // 
@@ -310,6 +314,7 @@ namespace onlineShopping
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(500, 33);
             this.textBox5.TabIndex = 27;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lokacioniButton
             // 
