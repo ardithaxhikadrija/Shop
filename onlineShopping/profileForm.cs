@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace onlineShopping
 {
-    public partial class profileControl1 : UserControl
+    public partial class profileForm : Form
     {
-        public profileControl1()
+        public profileForm()
         {
             InitializeComponent();
         }
 
-        private void profileControl1_Load(object sender, EventArgs e)
+        private void nrtelLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void homeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
