@@ -44,6 +44,15 @@ namespace onlineShopping
             this.profilesButton = new System.Windows.Forms.Button();
             this.ordersButton = new System.Windows.Forms.Button();
             this.cartButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lokacioniButton = new System.Windows.Forms.Button();
+            this.kartelaButton = new System.Windows.Forms.Button();
+            this.editoButton = new System.Windows.Forms.Button();
+            this.ruajButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // profiliLabel
@@ -60,7 +69,7 @@ namespace onlineShopping
             // 
             // kartelaLabel
             // 
-            this.kartelaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.kartelaLabel.BackColor = System.Drawing.Color.Black;
             this.kartelaLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kartelaLabel.ForeColor = System.Drawing.Color.White;
             this.kartelaLabel.Location = new System.Drawing.Point(300, 390);
@@ -72,7 +81,7 @@ namespace onlineShopping
             // 
             // lokacioniLabel
             // 
-            this.lokacioniLabel.BackColor = System.Drawing.Color.Transparent;
+            this.lokacioniLabel.BackColor = System.Drawing.Color.Black;
             this.lokacioniLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lokacioniLabel.ForeColor = System.Drawing.Color.White;
             this.lokacioniLabel.Location = new System.Drawing.Point(300, 350);
@@ -84,7 +93,7 @@ namespace onlineShopping
             // 
             // adresaLabel
             // 
-            this.adresaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.adresaLabel.BackColor = System.Drawing.Color.Black;
             this.adresaLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.adresaLabel.ForeColor = System.Drawing.Color.White;
             this.adresaLabel.Location = new System.Drawing.Point(300, 310);
@@ -96,7 +105,7 @@ namespace onlineShopping
             // 
             // nrtelLabel
             // 
-            this.nrtelLabel.BackColor = System.Drawing.Color.Transparent;
+            this.nrtelLabel.BackColor = System.Drawing.Color.Black;
             this.nrtelLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nrtelLabel.ForeColor = System.Drawing.Color.White;
             this.nrtelLabel.Location = new System.Drawing.Point(300, 270);
@@ -109,7 +118,7 @@ namespace onlineShopping
             // 
             // emailLabel
             // 
-            this.emailLabel.BackColor = System.Drawing.Color.Transparent;
+            this.emailLabel.BackColor = System.Drawing.Color.Black;
             this.emailLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailLabel.ForeColor = System.Drawing.Color.White;
             this.emailLabel.Location = new System.Drawing.Point(300, 230);
@@ -121,7 +130,7 @@ namespace onlineShopping
             // 
             // mbiemriLabel
             // 
-            this.mbiemriLabel.BackColor = System.Drawing.Color.Transparent;
+            this.mbiemriLabel.BackColor = System.Drawing.Color.Black;
             this.mbiemriLabel.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mbiemriLabel.ForeColor = System.Drawing.Color.White;
             this.mbiemriLabel.Location = new System.Drawing.Point(300, 190);
@@ -133,7 +142,7 @@ namespace onlineShopping
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(300, 150);
@@ -177,6 +186,7 @@ namespace onlineShopping
             this.storesButton.TabIndex = 18;
             this.storesButton.Text = "Stores";
             this.storesButton.UseVisualStyleBackColor = false;
+            this.storesButton.Click += new System.EventHandler(this.storesButton_Click);
             // 
             // aboutusButton
             // 
@@ -186,6 +196,8 @@ namespace onlineShopping
             this.aboutusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutusButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
+            this.aboutusButton.Image = ((System.Drawing.Image)(resources.GetObject("aboutusButton.Image")));
+            this.aboutusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.aboutusButton.Location = new System.Drawing.Point(0, 380);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
@@ -244,6 +256,125 @@ namespace onlineShopping
             this.cartButton.Text = "Cart";
             this.cartButton.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(610, 150);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(500, 33);
+            this.textBox1.TabIndex = 23;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Black;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(610, 190);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(500, 33);
+            this.textBox2.TabIndex = 24;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Black;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(610, 230);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(500, 33);
+            this.textBox3.TabIndex = 25;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.Black;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.White;
+            this.textBox4.Location = new System.Drawing.Point(610, 270);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(500, 33);
+            this.textBox4.TabIndex = 26;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.Black;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.Color.White;
+            this.textBox5.Location = new System.Drawing.Point(610, 310);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(500, 33);
+            this.textBox5.TabIndex = 27;
+            // 
+            // lokacioniButton
+            // 
+            this.lokacioniButton.BackColor = System.Drawing.Color.Black;
+            this.lokacioniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.lokacioniButton.FlatAppearance.BorderSize = 0;
+            this.lokacioniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lokacioniButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lokacioniButton.ForeColor = System.Drawing.Color.White;
+            this.lokacioniButton.Location = new System.Drawing.Point(610, 350);
+            this.lokacioniButton.Name = "lokacioniButton";
+            this.lokacioniButton.Size = new System.Drawing.Size(500, 35);
+            this.lokacioniButton.TabIndex = 28;
+            this.lokacioniButton.Text = "Jep lokacionin";
+            this.lokacioniButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.lokacioniButton.UseVisualStyleBackColor = false;
+            // 
+            // kartelaButton
+            // 
+            this.kartelaButton.BackColor = System.Drawing.Color.Black;
+            this.kartelaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.kartelaButton.FlatAppearance.BorderSize = 0;
+            this.kartelaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kartelaButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kartelaButton.ForeColor = System.Drawing.Color.White;
+            this.kartelaButton.Location = new System.Drawing.Point(610, 390);
+            this.kartelaButton.Name = "kartelaButton";
+            this.kartelaButton.Size = new System.Drawing.Size(500, 35);
+            this.kartelaButton.TabIndex = 29;
+            this.kartelaButton.Text = "Jep te dhënat e karteles";
+            this.kartelaButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.kartelaButton.UseVisualStyleBackColor = false;
+            // 
+            // editoButton
+            // 
+            this.editoButton.BackColor = System.Drawing.Color.Black;
+            this.editoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.editoButton.FlatAppearance.BorderSize = 0;
+            this.editoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editoButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.editoButton.ForeColor = System.Drawing.Color.White;
+            this.editoButton.Location = new System.Drawing.Point(890, 600);
+            this.editoButton.Name = "editoButton";
+            this.editoButton.Size = new System.Drawing.Size(100, 50);
+            this.editoButton.TabIndex = 30;
+            this.editoButton.Text = "Edito";
+            this.editoButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.editoButton.UseVisualStyleBackColor = false;
+            // 
+            // ruajButton
+            // 
+            this.ruajButton.BackColor = System.Drawing.Color.Black;
+            this.ruajButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ruajButton.FlatAppearance.BorderSize = 0;
+            this.ruajButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ruajButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ruajButton.ForeColor = System.Drawing.Color.White;
+            this.ruajButton.Location = new System.Drawing.Point(1000, 600);
+            this.ruajButton.Name = "ruajButton";
+            this.ruajButton.Size = new System.Drawing.Size(100, 50);
+            this.ruajButton.TabIndex = 31;
+            this.ruajButton.Text = "Ruaj";
+            this.ruajButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.ruajButton.UseVisualStyleBackColor = false;
+            // 
             // profileForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -251,6 +382,15 @@ namespace onlineShopping
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.ruajButton);
+            this.Controls.Add(this.editoButton);
+            this.Controls.Add(this.kartelaButton);
+            this.Controls.Add(this.lokacioniButton);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.aboutusButton);
             this.Controls.Add(this.profilesButton);
             this.Controls.Add(this.ordersButton);
@@ -290,5 +430,14 @@ namespace onlineShopping
         private System.Windows.Forms.Button profilesButton;
         private System.Windows.Forms.Button ordersButton;
         private System.Windows.Forms.Button cartButton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button lokacioniButton;
+        private System.Windows.Forms.Button kartelaButton;
+        private System.Windows.Forms.Button editoButton;
+        private System.Windows.Forms.Button ruajButton;
     }
 }

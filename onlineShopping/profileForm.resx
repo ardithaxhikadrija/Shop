@@ -136,6 +136,14 @@
         GxF0Q23EfTfUpsiKf5m4Oh8P/NEDn7CeIf7hA0POuReE4+e3J6nXsAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="aboutusButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAACJSURBVEhL7dRBCoAwDATAvq+v8ugnlSJ+Q+vWLkRBqdUELx3IZRs24EHXPBZj9JgR89WA8awV
+        CMP+rCOwViBc8psO1gpk/x/gatot4qpA9v+BGqwVyMwPrPnpHldff6J24ISrAlnxQA3WCmTmBzRNrBV8
+        0DBjLn/XRz1jPSxOOka6TMsT03I7zm0DQu5nmSs4QAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="profilesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAbBJREFUWEft

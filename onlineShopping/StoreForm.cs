@@ -295,5 +295,14 @@ namespace onlineShopping
 
         }
 
+        private void storesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cartButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
