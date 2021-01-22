@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace onlineShopping
 {
     partial class StoreForm
@@ -733,6 +735,7 @@ namespace onlineShopping
             this.storesButton.TabIndex = 13;
             this.storesButton.Text = "Stores";
             this.storesButton.UseVisualStyleBackColor = true;
+            this.storesButton.Click += new System.EventHandler(this.storesButton_Click);
             // 
             // homeButton
             // 
@@ -797,6 +800,11 @@ namespace onlineShopping
             this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
 
+        }
+
+        private void storesButton_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
