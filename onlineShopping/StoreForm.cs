@@ -301,6 +301,7 @@ namespace onlineShopping
         {
             CartForm cart = new CartForm(this);
             cart.ShowDialog();
+            this.Close();
         }
     }
 }
