@@ -23,3 +23,5 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.pdb
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.CartForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.kartelaControl.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.mapForm.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.mapsForm.resources

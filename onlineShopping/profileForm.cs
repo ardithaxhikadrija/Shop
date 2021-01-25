@@ -43,5 +43,12 @@ namespace onlineShopping
         {
             kartelaControl1.Show();
         }
+
+        private void lokacioniButton_Click(object sender, EventArgs e)
+        {
+            mapForm map = new mapForm();
+            map.Show();
+            this.Hide();
+        }
     }
 }

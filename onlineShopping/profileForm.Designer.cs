@@ -30,6 +30,7 @@ namespace onlineShopping
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profileForm));
+            System.Windows.Forms.Button lokacioniButton;
             this.profiliLabel = new System.Windows.Forms.Label();
             this.kartelaLabel = new System.Windows.Forms.Label();
             this.lokacioniLabel = new System.Windows.Forms.Label();
@@ -49,11 +50,11 @@ namespace onlineShopping
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.lokacioniButton = new System.Windows.Forms.Button();
             this.kartelaButton = new System.Windows.Forms.Button();
             this.editoButton = new System.Windows.Forms.Button();
             this.ruajButton = new System.Windows.Forms.Button();
             this.kartelaControl1 = new onlineShopping.kartelaControl();
+            lokacioniButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // profiliLabel
@@ -319,19 +320,20 @@ namespace onlineShopping
             // 
             // lokacioniButton
             // 
-            this.lokacioniButton.BackColor = System.Drawing.Color.Black;
-            this.lokacioniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.lokacioniButton.FlatAppearance.BorderSize = 0;
-            this.lokacioniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lokacioniButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lokacioniButton.ForeColor = System.Drawing.Color.White;
-            this.lokacioniButton.Location = new System.Drawing.Point(610, 350);
-            this.lokacioniButton.Name = "lokacioniButton";
-            this.lokacioniButton.Size = new System.Drawing.Size(500, 35);
-            this.lokacioniButton.TabIndex = 28;
-            this.lokacioniButton.Text = "Jep lokacionin";
-            this.lokacioniButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.lokacioniButton.UseVisualStyleBackColor = false;
+            lokacioniButton.BackColor = System.Drawing.Color.Black;
+            lokacioniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            lokacioniButton.FlatAppearance.BorderSize = 0;
+            lokacioniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            lokacioniButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lokacioniButton.ForeColor = System.Drawing.Color.White;
+            lokacioniButton.Location = new System.Drawing.Point(610, 350);
+            lokacioniButton.Name = "lokacioniButton";
+            lokacioniButton.Size = new System.Drawing.Size(500, 35);
+            lokacioniButton.TabIndex = 28;
+            lokacioniButton.Text = "Jep lokacionin";
+            lokacioniButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            lokacioniButton.UseVisualStyleBackColor = false;
+            lokacioniButton.Click += new System.EventHandler(this.lokacioniButton_Click);
             // 
             // kartelaButton
             // 
@@ -384,11 +386,12 @@ namespace onlineShopping
             // 
             // kartelaControl1
             // 
+            this.kartelaControl1.AutoSize = true;
             this.kartelaControl1.BackColor = System.Drawing.Color.Transparent;
             this.kartelaControl1.ForeColor = System.Drawing.Color.White;
             this.kartelaControl1.Location = new System.Drawing.Point(392, 88);
             this.kartelaControl1.Name = "kartelaControl1";
-            this.kartelaControl1.Size = new System.Drawing.Size(500, 422);
+            this.kartelaControl1.Size = new System.Drawing.Size(503, 422);
             this.kartelaControl1.TabIndex = 32;
             // 
             // profileForm
@@ -402,7 +405,7 @@ namespace onlineShopping
             this.Controls.Add(this.ruajButton);
             this.Controls.Add(this.editoButton);
             this.Controls.Add(this.kartelaButton);
-            this.Controls.Add(this.lokacioniButton);
+            this.Controls.Add(lokacioniButton);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -453,7 +456,6 @@ namespace onlineShopping
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button lokacioniButton;
         private System.Windows.Forms.Button kartelaButton;
         private System.Windows.Forms.Button editoButton;
         private System.Windows.Forms.Button ruajButton;
