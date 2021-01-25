@@ -1,7 +1,7 @@
 ﻿
 namespace onlineShopping
 {
-    partial class CartForm
+    partial class OrderForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,31 +29,50 @@ namespace onlineShopping
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CartForm));
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrderForm));
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.aboutusButton = new System.Windows.Forms.Button();
             this.profilesButton = new System.Windows.Forms.Button();
             this.ordersButton = new System.Windows.Forms.Button();
             this.cartButton = new System.Windows.Forms.Button();
             this.storesButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.listBoxCart = new System.Windows.Forms.ListBox();
-            this.totaliBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
-            // contextMenuStrip1
+            // label1
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(690, 259);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(690, 359);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "label2";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel9.Controls.Add(this.aboutusButton);
+            this.panel9.Controls.Add(this.profilesButton);
+            this.panel9.Controls.Add(this.ordersButton);
+            this.panel9.Controls.Add(this.cartButton);
+            this.panel9.Controls.Add(this.storesButton);
+            this.panel9.Controls.Add(this.homeButton);
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(177, 700);
+            this.panel9.TabIndex = 24;
             // 
             // aboutusButton
             // 
@@ -90,7 +109,7 @@ namespace onlineShopping
             this.ordersButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ordersButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.ordersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ordersButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ordersButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ordersButton.ForeColor = System.Drawing.Color.White;
             this.ordersButton.Image = ((System.Drawing.Image)(resources.GetObject("ordersButton.Image")));
             this.ordersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -100,14 +119,13 @@ namespace onlineShopping
             this.ordersButton.TabIndex = 15;
             this.ordersButton.Text = "Orders";
             this.ordersButton.UseVisualStyleBackColor = true;
-            this.ordersButton.Click += new System.EventHandler(this.ordersButton_Click);
             // 
             // cartButton
             // 
             this.cartButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cartButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.cartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cartButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cartButton.ForeColor = System.Drawing.Color.White;
             this.cartButton.Image = ((System.Drawing.Image)(resources.GetObject("cartButton.Image")));
             this.cartButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -150,109 +168,20 @@ namespace onlineShopping
             this.homeButton.TabIndex = 12;
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = true;
-            this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel9.Controls.Add(this.aboutusButton);
-            this.panel9.Controls.Add(this.profilesButton);
-            this.panel9.Controls.Add(this.ordersButton);
-            this.panel9.Controls.Add(this.cartButton);
-            this.panel9.Controls.Add(this.storesButton);
-            this.panel9.Controls.Add(this.homeButton);
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(177, 703);
-            this.panel9.TabIndex = 23;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Teal;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(311, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 23);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "---Shporta juaj---";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Location = new System.Drawing.Point(204, 27);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(381, 58);
-            this.panel1.TabIndex = 25;
-            // 
-            // listBoxCart
-            // 
-            this.listBoxCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBoxCart.FormattingEnabled = true;
-            this.listBoxCart.ItemHeight = 29;
-            this.listBoxCart.Location = new System.Drawing.Point(204, 92);
-            this.listBoxCart.Name = "listBoxCart";
-            this.listBoxCart.Size = new System.Drawing.Size(381, 584);
-            this.listBoxCart.TabIndex = 26;
-            this.listBoxCart.SelectedIndexChanged += new System.EventHandler(this.listBoxCart_SelectedIndexChanged);
-            // 
-            // totaliBox
-            // 
-            this.totaliBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totaliBox.Location = new System.Drawing.Point(1002, 115);
-            this.totaliBox.Name = "totaliBox";
-            this.totaliBox.ReadOnly = true;
-            this.totaliBox.Size = new System.Drawing.Size(166, 36);
-            this.totaliBox.TabIndex = 27;
-            this.totaliBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1083, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 31);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "Totali:";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1002, 169);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 38);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "B l e j";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(883, 465);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 17);
-            this.label4.TabIndex = 31;
-            // 
-            // CartForm
+            // OrderForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.totaliBox);
-            this.Controls.Add(this.listBoxCart);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "CartForm";
+            this.Name = "OrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CartForm";
-            this.Load += new System.EventHandler(this.CartForm_Load);
+            this.Text = "OrderForm";
+            this.Load += new System.EventHandler(this.OrderForm_Load);
             this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -260,20 +189,15 @@ namespace onlineShopping
         }
 
         #endregion
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button aboutusButton;
         private System.Windows.Forms.Button profilesButton;
         private System.Windows.Forms.Button ordersButton;
         private System.Windows.Forms.Button cartButton;
         private System.Windows.Forms.Button storesButton;
         private System.Windows.Forms.Button homeButton;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ListBox listBoxCart;
-        private System.Windows.Forms.TextBox totaliBox;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Label label4;
     }
 }
