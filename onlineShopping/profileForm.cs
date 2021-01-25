@@ -50,5 +50,10 @@ namespace onlineShopping
             map.Show();
             this.Hide();
         }
+
+        private void kartelaControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

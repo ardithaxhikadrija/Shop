@@ -16,6 +16,7 @@ namespace onlineShopping
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
+            this.BackColor = Color.MidnightBlue;
         }
         private void kerkoButton_Click(object sender, EventArgs e)
         {
@@ -101,6 +102,13 @@ namespace onlineShopping
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            profileForm profili = new profileForm();
+            profili.Show();
+            this.Hide();
         }
     }
 }

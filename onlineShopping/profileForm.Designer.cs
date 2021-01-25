@@ -391,8 +391,9 @@ namespace onlineShopping
             this.kartelaControl1.ForeColor = System.Drawing.Color.White;
             this.kartelaControl1.Location = new System.Drawing.Point(392, 88);
             this.kartelaControl1.Name = "kartelaControl1";
-            this.kartelaControl1.Size = new System.Drawing.Size(503, 422);
+            this.kartelaControl1.Size = new System.Drawing.Size(698, 443);
             this.kartelaControl1.TabIndex = 32;
+            this.kartelaControl1.Load += new System.EventHandler(this.kartelaControl1_Load);
             // 
             // profileForm
             // 

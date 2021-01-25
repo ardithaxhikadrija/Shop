@@ -39,6 +39,7 @@
             this.qytetiTextBox = new System.Windows.Forms.TextBox();
             this.rrugaTextBox = new System.Windows.Forms.TextBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -53,6 +54,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.kerkoButton);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
@@ -77,7 +79,8 @@
             this.kerkoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.kerkoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kerkoButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kerkoButton.Location = new System.Drawing.Point(125, 570);
+            this.kerkoButton.ForeColor = System.Drawing.Color.White;
+            this.kerkoButton.Location = new System.Drawing.Point(40, 570);
             this.kerkoButton.Name = "kerkoButton";
             this.kerkoButton.Size = new System.Drawing.Size(150, 50);
             this.kerkoButton.TabIndex = 17;
@@ -91,6 +94,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(50, 380);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 25);
@@ -104,6 +108,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(50, 280);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 25);
@@ -117,6 +122,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(50, 180);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 25);
@@ -130,6 +136,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(50, 80);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 25);
@@ -186,6 +193,20 @@
             this.webBrowser1.Size = new System.Drawing.Size(796, 700);
             this.webBrowser1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(215, 570);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 50);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Ruaj";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // mapForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -217,5 +238,6 @@
         private System.Windows.Forms.TextBox qytetiTextBox;
         private System.Windows.Forms.TextBox rrugaTextBox;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Button button1;
     }
 }
