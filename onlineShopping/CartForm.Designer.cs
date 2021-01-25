@@ -43,6 +43,8 @@ namespace onlineShopping
             this.panel1 = new System.Windows.Forms.Panel();
             this.listBoxCart = new System.Windows.Forms.ListBox();
             this.totaliBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -195,17 +197,39 @@ namespace onlineShopping
             // totaliBox
             // 
             this.totaliBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totaliBox.Location = new System.Drawing.Point(613, 640);
+            this.totaliBox.Location = new System.Drawing.Point(1002, 115);
             this.totaliBox.Name = "totaliBox";
             this.totaliBox.ReadOnly = true;
-            this.totaliBox.Size = new System.Drawing.Size(249, 36);
+            this.totaliBox.Size = new System.Drawing.Size(166, 36);
             this.totaliBox.TabIndex = 27;
             this.totaliBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1083, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 31);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Totali:";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1002, 169);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 38);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "B l e j";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // CartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.totaliBox);
             this.Controls.Add(this.listBoxCart);
             this.Controls.Add(this.label1);
@@ -235,5 +259,7 @@ namespace onlineShopping
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox listBoxCart;
         private System.Windows.Forms.TextBox totaliBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
