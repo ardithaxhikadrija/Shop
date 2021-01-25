@@ -53,6 +53,7 @@ namespace onlineShopping
             this.kartelaButton = new System.Windows.Forms.Button();
             this.editoButton = new System.Windows.Forms.Button();
             this.ruajButton = new System.Windows.Forms.Button();
+            this.kartelaControl1 = new onlineShopping.kartelaControl();
             this.SuspendLayout();
             // 
             // profiliLabel
@@ -347,6 +348,7 @@ namespace onlineShopping
             this.kartelaButton.Text = "Jep te dhënat e karteles";
             this.kartelaButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.kartelaButton.UseVisualStyleBackColor = false;
+            this.kartelaButton.Click += new System.EventHandler(this.kartelaButton_Click);
             // 
             // editoButton
             // 
@@ -380,6 +382,15 @@ namespace onlineShopping
             this.ruajButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ruajButton.UseVisualStyleBackColor = false;
             // 
+            // kartelaControl1
+            // 
+            this.kartelaControl1.BackColor = System.Drawing.Color.Transparent;
+            this.kartelaControl1.ForeColor = System.Drawing.Color.White;
+            this.kartelaControl1.Location = new System.Drawing.Point(392, 88);
+            this.kartelaControl1.Name = "kartelaControl1";
+            this.kartelaControl1.Size = new System.Drawing.Size(500, 422);
+            this.kartelaControl1.TabIndex = 32;
+            // 
             // profileForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -387,6 +398,7 @@ namespace onlineShopping
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.kartelaControl1);
             this.Controls.Add(this.ruajButton);
             this.Controls.Add(this.editoButton);
             this.Controls.Add(this.kartelaButton);
@@ -414,6 +426,7 @@ namespace onlineShopping
             this.Name = "profileForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "profileForm";
+            this.Load += new System.EventHandler(this.profileForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -444,5 +457,6 @@ namespace onlineShopping
         private System.Windows.Forms.Button kartelaButton;
         private System.Windows.Forms.Button editoButton;
         private System.Windows.Forms.Button ruajButton;
+        private kartelaControl kartelaControl1;
     }
 }

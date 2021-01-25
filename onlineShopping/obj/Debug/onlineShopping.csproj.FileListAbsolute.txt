@@ -15,7 +15,6 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.pro
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.Properties.Resources.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.SignUp.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.StoreForm.resources
-C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.storeUserControl.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.GenerateResource.cache
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CoreCompileInputs.cache
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csproj.CopyComplete
@@ -23,3 +22,4 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.exe
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.pdb
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.profileForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.CartForm.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.kartelaControl.resources

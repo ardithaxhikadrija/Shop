@@ -33,5 +33,15 @@ namespace onlineShopping
             store1.Show();
             this.Hide();
         }
+
+        private void profileForm_Load(object sender, EventArgs e)
+        {
+            kartelaControl1.Hide();
+        }
+
+        private void kartelaButton_Click(object sender, EventArgs e)
+        {
+            kartelaControl1.Show();
+        }
     }
 }
