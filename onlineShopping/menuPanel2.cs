@@ -29,11 +29,7 @@ namespace onlineShopping
         }
 
         private void homeButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-
-
-        }
+        { this.Hide(); }
 
         private void storesButton_Click(object sender, EventArgs e)
         {
@@ -46,6 +42,13 @@ namespace onlineShopping
         {
             profileForm profili = new profileForm();
             profili.Show();
+            this.Hide();
+        }
+
+        private void cartButton_Click_1(object sender, EventArgs e)
+        {
+            CartForm cart = new CartForm();
+            cart.Show();
             this.Hide();
         }
     }

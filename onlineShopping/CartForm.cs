@@ -12,9 +12,32 @@ namespace onlineShopping
 {
     public partial class CartForm : Form
     {
-        string porosia = " ";
+        public String date, time;
         double totali = 0;
         double a, b, c, d, f, g, h, j;
+
+
+
+        private void ordersButton_Click(object sender, EventArgs e)
+        {
+            OrderForm order = new OrderForm(this);
+            order.Show();
+            this.Hide();
+        }
+
+        private void cartButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label4.Text = DateTime.Now.ToLongTimeString();
+            OrderForm order = new OrderForm(this);
+            order.Show();
+            this.Hide();
+
+        }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
@@ -28,6 +51,10 @@ namespace onlineShopping
         {
             InitializeComponent();
             this.sf = store;
+        }
+
+        public CartForm()
+        {
         }
 
         private void CartForm_Load(object sender, EventArgs e)
@@ -82,7 +109,7 @@ namespace onlineShopping
                 totali += j;
             }
 
-            totaliBox.Text = totali.ToString()+"$"; 
+            totaliBox.Text = "$"+totali.ToString(); 
         }
         
         

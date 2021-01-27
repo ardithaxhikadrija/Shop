@@ -79,12 +79,6 @@
     <Compile Include="CartForm.Designer.cs">
       <DependentUpon>CartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="demoControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="demoControl.Designer.cs">
-      <DependentUpon>demoControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +115,12 @@
     </Compile>
     <Compile Include="menuPanel2.Designer.cs">
       <DependentUpon>menuPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForm.Designer.cs">
+      <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
     <Compile Include="profile.cs">
       <SubType>UserControl</SubType>
@@ -159,9 +159,6 @@
     <EmbeddedResource Include="CartForm.resx">
       <DependentUpon>CartForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="demoControl.resx">
-      <DependentUpon>demoControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menuPanel2.resx">
       <DependentUpon>menuPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>

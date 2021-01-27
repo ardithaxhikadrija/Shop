@@ -300,8 +300,13 @@ namespace onlineShopping
         private void cartButton_Click(object sender, EventArgs e)
         {
             CartForm cart = new CartForm(this);
-            cart.ShowDialog();
+            cart.Show();
             this.Close();
+        }
+
+        private void ordersButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
