@@ -20,6 +20,8 @@ namespace onlineShopping
 
         private void ordersButton_Click(object sender, EventArgs e)
         {
+            label4.Text = DateTime.Now.ToLongTimeString();
+            label3.Text = DateTime.Now.ToLongDateString();
             OrderForm order = new OrderForm(this);
             order.Show();
             this.Hide();
@@ -33,6 +35,8 @@ namespace onlineShopping
         private void button1_Click(object sender, EventArgs e)
         {
             label4.Text = DateTime.Now.ToLongTimeString();
+            label3.Text = DateTime.Now.ToLongDateString();
+            MessageBox.Show("Your order has been placed", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             OrderForm order = new OrderForm(this);
             order.Show();
             this.Hide();

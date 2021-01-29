@@ -46,6 +46,7 @@ namespace onlineShopping
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@ namespace onlineShopping
             this.aboutusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutusButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 380);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 622);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 17;
@@ -200,6 +201,7 @@ namespace onlineShopping
             // totaliBox
             // 
             this.totaliBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totaliBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.totaliBox.Location = new System.Drawing.Point(1002, 115);
             this.totaliBox.Name = "totaliBox";
             this.totaliBox.ReadOnly = true;
@@ -211,20 +213,20 @@ namespace onlineShopping
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1083, 76);
+            this.label2.Location = new System.Drawing.Point(1089, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 31);
+            this.label2.Size = new System.Drawing.Size(79, 31);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Totali:";
+            this.label2.Text = "Total:";
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(1002, 169);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 38);
             this.button1.TabIndex = 29;
-            this.button1.Text = "B l e j";
+            this.button1.Text = "B Y  N O W";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -235,11 +237,25 @@ namespace onlineShopping
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 17);
             this.label4.TabIndex = 31;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(883, 482);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 32;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Visible = false;
             // 
             // CartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -270,10 +286,11 @@ namespace onlineShopping
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ListBox listBoxCart;
-        private System.Windows.Forms.TextBox totaliBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.ListBox listBoxCart;
+        public System.Windows.Forms.TextBox totaliBox;
     }
 }

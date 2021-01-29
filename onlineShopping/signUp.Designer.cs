@@ -167,6 +167,7 @@ namespace onlineShopping
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SignUp";
+            this.Load += new System.EventHandler(this.SignUp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
