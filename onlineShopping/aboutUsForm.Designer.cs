@@ -49,7 +49,7 @@ namespace onlineShopping
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
             this.aboutusButton.Image = ((System.Drawing.Image)(resources.GetObject("aboutusButton.Image")));
             this.aboutusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 304);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 624);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 28;
@@ -132,11 +132,11 @@ namespace onlineShopping
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(295, 421);
+            this.label1.Location = new System.Drawing.Point(280, 420);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(689, 250);
+            this.label1.Size = new System.Drawing.Size(813, 290);
             this.label1.TabIndex = 30;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -145,11 +145,11 @@ namespace onlineShopping
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Verdana", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(543, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 34);
+            this.label2.Size = new System.Drawing.Size(173, 41);
             this.label2.TabIndex = 31;
             this.label2.Text = "About Us";
             // 
