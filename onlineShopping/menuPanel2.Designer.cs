@@ -102,6 +102,7 @@ namespace onlineShopping
             this.aboutusButton.TabIndex = 5;
             this.aboutusButton.Text = "About Us";
             this.aboutusButton.UseVisualStyleBackColor = true;
+            this.aboutusButton.Click += new System.EventHandler(this.aboutusButton_Click);
             // 
             // menuPanel2
             // 

@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutUsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutUsForm.Designer.cs">
+      <DependentUpon>aboutUsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AppDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -156,6 +162,9 @@
     </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserRepository.cs" />
+    <EmbeddedResource Include="aboutUsForm.resx">
+      <DependentUpon>aboutUsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CartForm.resx">
       <DependentUpon>CartForm.cs</DependentUpon>
     </EmbeddedResource>

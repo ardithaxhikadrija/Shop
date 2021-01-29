@@ -10,52 +10,51 @@ using System.Windows.Forms;
 
 namespace onlineShopping
 {
-    public partial class menuPanel2 : UserControl
+    public partial class aboutUsForm : Form
     {
-
-        public menuPanel2()
+        public aboutUsForm()
         {
             InitializeComponent();
         }
 
-        private void cartButton_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void menuPanel2_Load(object sender, EventArgs e)
+        private void label1_Click_1(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(50, Color.MidnightBlue);
         }
 
         private void homeButton_Click(object sender, EventArgs e)
-        { this.Hide(); }
+        {
+            this.Close();
+        }
 
         private void storesButton_Click(object sender, EventArgs e)
         {
-            StoreForm store = new StoreForm();
-            store.Show();
+            StoreForm store2 = new StoreForm();
+            store2.Show();
             this.Hide();
         }
 
         private void profilesButton_Click(object sender, EventArgs e)
         {
-            profileForm profili = new profileForm();
-            profili.Show();
+            profileForm profile2 = new profileForm();
+            profile2.Show();
             this.Hide();
         }
 
-        private void cartButton_Click_1(object sender, EventArgs e)
+        private void ordersButton_Click(object sender, EventArgs e)
         {
-            CartForm cart = new CartForm();
-            cart.Show();
-            this.Hide();
+
         }
 
-        private void aboutusButton_Click(object sender, EventArgs e)
+        private void cartButton_Click(object sender, EventArgs e)
         {
-            aboutUsForm aboutUs = new aboutUsForm();
-            aboutUs.Show();
+            CartForm cart2 = new CartForm();
+            cart2.Show();
             this.Hide();
         }
     }
