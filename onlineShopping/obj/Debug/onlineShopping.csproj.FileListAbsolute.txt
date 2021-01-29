@@ -5,8 +5,6 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\onlineShopping.exe
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\onlineShopping.pdb
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\Dapper.dll
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\bin\Debug\Dapper.xml
-C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.csprojAssemblyReference.cache
-C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.demoControl.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.homeForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.LogIn.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.menuPanel2.resources
@@ -25,3 +23,5 @@ C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.Car
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.kartelaControl.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.mapForm.resources
 C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.mapsForm.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.aboutUsForm.resources
+C:\Users\artne\Documents\GitHub\Shop\onlineShopping\obj\Debug\onlineShopping.OrderForm.resources

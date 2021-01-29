@@ -55,5 +55,10 @@ namespace onlineShopping
         {
 
         }
+
+        private void editoButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

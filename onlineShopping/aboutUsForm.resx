@@ -117,28 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="lokacioniButton.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="homeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAPxJREFUSEvl
-        zLFtAkEQheETFRBBYDowAS7hIgQN0YL7cejQ6HowBRBhO8UEnN/4fm/AzMFxS2LxSU9azbyd4n7UdT1R
-        1sqb8sD4NnRwrnwof3bKnHV/OjJQnpWjcspmthtQv44+DpUX5RLrDPnWjT5MlY397uhdeeT7eSoulS/7
-        dSX7s+BMTIVSOVi7J/tbcs7Tsvqt5ak452n53XSy7DnnUcjGOY99Ns557LNxzmPfZqu8Enu34pzHvs2I
-        mvXGzShGzWMfopIwDlHx2IeoJIxDVDz2ISoJ4xAVj32ISsI4RMXT7rOpODsqiWadu4mWT8oqyIxKolnn
-        7n9WFD+GZGGrx9s+5QAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="storesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAJ9JREFUSEvt
-        0tEJAjEQhOFUcK1oASJiMdqSFiM2cN1cAXFy+0MIMScmAX3IBwshs0xe4oavee+fmloPaspYrEZNGXvB
-        SXO2Y3LeRE0Ze8FBc7Rjct5EzXvK97bWZEddTuHddprcqEspmDTLutImdEzURrq8rnEfF2ojXc6WdTFT
-        GxF0Q23EfTfUpsiKf5m4Oh8P/NEDn7CeIf7hA0POuReE4+e3J6nXsAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="aboutusButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAIlJREFUSEvt
@@ -181,6 +160,24 @@
         vJQHAatIf8oc1LfmUfkQcoK+NDEB7f+flxlBXXSKHlwDtODbAdaNPdkQVP+f/zLw7QDrxp5sCJpYnmyi
         bfsoT74dYN3Ykw1BehEpG0gHKBPfDrBu7MmGIH2200w/gsaebAiqD9gb0jfkEM06hDN7CoU5o6p+AGav
         /uJkREkHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="storesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAJ9JREFUSEvt
+        0tEJAjEQhOFUcK1oASJiMdqSFiM2cN1cAXFy+0MIMScmAX3IBwshs0xe4oavee+fmloPaspYrEZNGXvB
+        SXO2Y3LeRE0Ze8FBc7Rjct5EzXvK97bWZEddTuHddprcqEspmDTLutImdEzURrq8rnEfF2ojXc6WdTFT
+        GxF0Q23EfTfUpsiKf5m4Oh8P/NEDn7CeIf7hA0POuReE4+e3J6nXsAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="homeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAPxJREFUSEvl
+        zLFtAkEQheETFRBBYDowAS7hIgQN0YL7cejQ6HowBRBhO8UEnN/4fm/AzMFxS2LxSU9azbyd4n7UdT1R
+        1sqb8sD4NnRwrnwof3bKnHV/OjJQnpWjcspmthtQv44+DpUX5RLrDPnWjT5MlY397uhdeeT7eSoulS/7
+        dSX7s+BMTIVSOVi7J/tbcs7Tsvqt5ak452n53XSy7DnnUcjGOY99Ns557LNxzmPfZqu8Enu34pzHvs2I
+        mvXGzShGzWMfopIwDlHx2IeoJIxDVDz2ISoJ4xAVj32ISsI4RMXT7rOpODsqiWadu4mWT8oqyIxKolnn
+        7n9WFD+GZGGrx9s+5QAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

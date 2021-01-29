@@ -51,5 +51,12 @@ namespace onlineShopping
             cart.Show();
             this.Hide();
         }
+
+        private void aboutusButton_Click(object sender, EventArgs e)
+        {
+            aboutUsForm aboutUs = new aboutUsForm();
+            aboutUs.Show();
+            this.Hide();
+        }
     }
 }

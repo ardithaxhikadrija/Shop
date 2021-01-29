@@ -49,9 +49,9 @@ namespace onlineShopping
             this.kartelaLabel.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kartelaLabel.Location = new System.Drawing.Point(305, 5);
             this.kartelaLabel.Name = "kartelaLabel";
-            this.kartelaLabel.Size = new System.Drawing.Size(96, 29);
+            this.kartelaLabel.Size = new System.Drawing.Size(148, 29);
             this.kartelaLabel.TabIndex = 0;
-            this.kartelaLabel.Text = "Kartela";
+            this.kartelaLabel.Text = "Credit Card";
             this.kartelaLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // closeButton
@@ -73,9 +73,9 @@ namespace onlineShopping
             this.label123.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.Location = new System.Drawing.Point(150, 80);
             this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(184, 25);
+            this.label123.Size = new System.Drawing.Size(160, 25);
             this.label123.TabIndex = 2;
-            this.label123.Text = "Numri i kartelës:";
+            this.label123.Text = "Card number :";
             // 
             // textBox1
             // 
@@ -94,9 +94,9 @@ namespace onlineShopping
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(150, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 25);
+            this.label1.Size = new System.Drawing.Size(229, 25);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Emri i pronarit të kartelës:";
+            this.label1.Text = "Name and Surname :";
             // 
             // textBox2
             // 
@@ -115,9 +115,9 @@ namespace onlineShopping
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(150, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
+            this.label2.Size = new System.Drawing.Size(95, 25);
             this.label2.TabIndex = 6;
-            this.label2.Text = "MM/YY:";
+            this.label2.Text = "MM/YY :";
             // 
             // label3
             // 
@@ -125,9 +125,9 @@ namespace onlineShopping
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(340, 220);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
+            this.label3.Size = new System.Drawing.Size(70, 25);
             this.label3.TabIndex = 7;
-            this.label3.Text = "CVV:";
+            this.label3.Text = "CVV :";
             // 
             // textBox3
             // 
@@ -160,7 +160,7 @@ namespace onlineShopping
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 40);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Ruaj";
+            this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // kartelaControl

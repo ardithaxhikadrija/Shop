@@ -29,8 +29,8 @@ namespace onlineShopping
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profileForm));
             System.Windows.Forms.Button lokacioniButton;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profileForm));
             this.profiliLabel = new System.Windows.Forms.Label();
             this.kartelaLabel = new System.Windows.Forms.Label();
             this.lokacioniLabel = new System.Windows.Forms.Label();
@@ -57,6 +57,23 @@ namespace onlineShopping
             lokacioniButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // lokacioniButton
+            // 
+            lokacioniButton.BackColor = System.Drawing.Color.Black;
+            lokacioniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            lokacioniButton.FlatAppearance.BorderSize = 0;
+            lokacioniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            lokacioniButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lokacioniButton.ForeColor = System.Drawing.Color.White;
+            lokacioniButton.Location = new System.Drawing.Point(610, 350);
+            lokacioniButton.Name = "lokacioniButton";
+            lokacioniButton.Size = new System.Drawing.Size(500, 35);
+            lokacioniButton.TabIndex = 28;
+            lokacioniButton.Text = "Enter the location";
+            lokacioniButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            lokacioniButton.UseVisualStyleBackColor = false;
+            lokacioniButton.Click += new System.EventHandler(this.lokacioniButton_Click);
+            // 
             // profiliLabel
             // 
             this.profiliLabel.AutoSize = true;
@@ -65,9 +82,9 @@ namespace onlineShopping
             this.profiliLabel.ForeColor = System.Drawing.Color.White;
             this.profiliLabel.Location = new System.Drawing.Point(500, 0);
             this.profiliLabel.Name = "profiliLabel";
-            this.profiliLabel.Size = new System.Drawing.Size(121, 46);
+            this.profiliLabel.Size = new System.Drawing.Size(134, 46);
             this.profiliLabel.TabIndex = 1;
-            this.profiliLabel.Text = "Profili";
+            this.profiliLabel.Text = "Profile";
             // 
             // kartelaLabel
             // 
@@ -78,7 +95,7 @@ namespace onlineShopping
             this.kartelaLabel.Name = "kartelaLabel";
             this.kartelaLabel.Size = new System.Drawing.Size(300, 35);
             this.kartelaLabel.TabIndex = 16;
-            this.kartelaLabel.Text = "Kartela:";
+            this.kartelaLabel.Text = "Credit Card :";
             this.kartelaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lokacioniLabel
@@ -90,7 +107,7 @@ namespace onlineShopping
             this.lokacioniLabel.Name = "lokacioniLabel";
             this.lokacioniLabel.Size = new System.Drawing.Size(300, 35);
             this.lokacioniLabel.TabIndex = 15;
-            this.lokacioniLabel.Text = "Lokacioni në hartë:";
+            this.lokacioniLabel.Text = "Location on map :";
             this.lokacioniLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // adresaLabel
@@ -102,7 +119,7 @@ namespace onlineShopping
             this.adresaLabel.Name = "adresaLabel";
             this.adresaLabel.Size = new System.Drawing.Size(300, 35);
             this.adresaLabel.TabIndex = 14;
-            this.adresaLabel.Text = "Adresa:";
+            this.adresaLabel.Text = "Address :";
             this.adresaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // nrtelLabel
@@ -114,7 +131,7 @@ namespace onlineShopping
             this.nrtelLabel.Name = "nrtelLabel";
             this.nrtelLabel.Size = new System.Drawing.Size(300, 35);
             this.nrtelLabel.TabIndex = 13;
-            this.nrtelLabel.Text = "Numri i telefonit:";
+            this.nrtelLabel.Text = "Phone number :";
             this.nrtelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.nrtelLabel.Click += new System.EventHandler(this.nrtelLabel_Click);
             // 
@@ -139,7 +156,7 @@ namespace onlineShopping
             this.mbiemriLabel.Name = "mbiemriLabel";
             this.mbiemriLabel.Size = new System.Drawing.Size(300, 35);
             this.mbiemriLabel.TabIndex = 11;
-            this.mbiemriLabel.Text = "Mbiemri:";
+            this.mbiemriLabel.Text = "Surname :";
             this.mbiemriLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
@@ -151,7 +168,7 @@ namespace onlineShopping
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(300, 35);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Emri:";
+            this.label1.Text = "Name :";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // homeButton
@@ -318,23 +335,6 @@ namespace onlineShopping
             this.textBox5.TabIndex = 27;
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // lokacioniButton
-            // 
-            lokacioniButton.BackColor = System.Drawing.Color.Black;
-            lokacioniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            lokacioniButton.FlatAppearance.BorderSize = 0;
-            lokacioniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            lokacioniButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lokacioniButton.ForeColor = System.Drawing.Color.White;
-            lokacioniButton.Location = new System.Drawing.Point(610, 350);
-            lokacioniButton.Name = "lokacioniButton";
-            lokacioniButton.Size = new System.Drawing.Size(500, 35);
-            lokacioniButton.TabIndex = 28;
-            lokacioniButton.Text = "Jep lokacionin";
-            lokacioniButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            lokacioniButton.UseVisualStyleBackColor = false;
-            lokacioniButton.Click += new System.EventHandler(this.lokacioniButton_Click);
-            // 
             // kartelaButton
             // 
             this.kartelaButton.BackColor = System.Drawing.Color.Black;
@@ -347,7 +347,7 @@ namespace onlineShopping
             this.kartelaButton.Name = "kartelaButton";
             this.kartelaButton.Size = new System.Drawing.Size(500, 35);
             this.kartelaButton.TabIndex = 29;
-            this.kartelaButton.Text = "Jep te dhënat e karteles";
+            this.kartelaButton.Text = "Enter credit card data";
             this.kartelaButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.kartelaButton.UseVisualStyleBackColor = false;
             this.kartelaButton.Click += new System.EventHandler(this.kartelaButton_Click);
@@ -364,9 +364,10 @@ namespace onlineShopping
             this.editoButton.Name = "editoButton";
             this.editoButton.Size = new System.Drawing.Size(100, 50);
             this.editoButton.TabIndex = 30;
-            this.editoButton.Text = "Edito";
+            this.editoButton.Text = "Edit";
             this.editoButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.editoButton.UseVisualStyleBackColor = false;
+            this.editoButton.Click += new System.EventHandler(this.editoButton_Click);
             // 
             // ruajButton
             // 
@@ -380,7 +381,7 @@ namespace onlineShopping
             this.ruajButton.Name = "ruajButton";
             this.ruajButton.Size = new System.Drawing.Size(100, 50);
             this.ruajButton.TabIndex = 31;
-            this.ruajButton.Text = "Ruaj";
+            this.ruajButton.Text = "Save";
             this.ruajButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.ruajButton.UseVisualStyleBackColor = false;
             // 
@@ -389,7 +390,7 @@ namespace onlineShopping
             this.kartelaControl1.AutoSize = true;
             this.kartelaControl1.BackColor = System.Drawing.Color.Transparent;
             this.kartelaControl1.ForeColor = System.Drawing.Color.White;
-            this.kartelaControl1.Location = new System.Drawing.Point(392, 88);
+            this.kartelaControl1.Location = new System.Drawing.Point(350, 100);
             this.kartelaControl1.Name = "kartelaControl1";
             this.kartelaControl1.Size = new System.Drawing.Size(698, 443);
             this.kartelaControl1.TabIndex = 32;
