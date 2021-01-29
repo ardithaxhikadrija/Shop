@@ -216,7 +216,7 @@ namespace onlineShopping
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
             this.aboutusButton.Image = ((System.Drawing.Image)(resources.GetObject("aboutusButton.Image")));
             this.aboutusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 304);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 624);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 22;
