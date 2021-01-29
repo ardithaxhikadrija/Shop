@@ -43,7 +43,6 @@ namespace onlineShopping
             this.storesButton = new System.Windows.Forms.Button();
             this.aboutusButton = new System.Windows.Forms.Button();
             this.profilesButton = new System.Windows.Forms.Button();
-            this.ordersButton = new System.Windows.Forms.Button();
             this.cartButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -217,12 +216,13 @@ namespace onlineShopping
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
             this.aboutusButton.Image = ((System.Drawing.Image)(resources.GetObject("aboutusButton.Image")));
             this.aboutusButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 380);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 304);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 22;
             this.aboutusButton.Text = "About Us";
             this.aboutusButton.UseVisualStyleBackColor = false;
+            this.aboutusButton.Click += new System.EventHandler(this.aboutusButton_Click);
             // 
             // profilesButton
             // 
@@ -234,29 +234,12 @@ namespace onlineShopping
             this.profilesButton.ForeColor = System.Drawing.Color.White;
             this.profilesButton.Image = ((System.Drawing.Image)(resources.GetObject("profilesButton.Image")));
             this.profilesButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.profilesButton.Location = new System.Drawing.Point(0, 304);
+            this.profilesButton.Location = new System.Drawing.Point(0, 228);
             this.profilesButton.Name = "profilesButton";
             this.profilesButton.Size = new System.Drawing.Size(175, 75);
             this.profilesButton.TabIndex = 21;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = false;
-            // 
-            // ordersButton
-            // 
-            this.ordersButton.BackColor = System.Drawing.Color.Transparent;
-            this.ordersButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ordersButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.ordersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ordersButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ordersButton.ForeColor = System.Drawing.Color.White;
-            this.ordersButton.Image = ((System.Drawing.Image)(resources.GetObject("ordersButton.Image")));
-            this.ordersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ordersButton.Location = new System.Drawing.Point(0, 228);
-            this.ordersButton.Name = "ordersButton";
-            this.ordersButton.Size = new System.Drawing.Size(175, 75);
-            this.ordersButton.TabIndex = 20;
-            this.ordersButton.Text = "Orders";
-            this.ordersButton.UseVisualStyleBackColor = false;
             // 
             // cartButton
             // 
@@ -274,6 +257,7 @@ namespace onlineShopping
             this.cartButton.TabIndex = 19;
             this.cartButton.Text = "Cart";
             this.cartButton.UseVisualStyleBackColor = false;
+            this.cartButton.Click += new System.EventHandler(this.cartButton_Click);
             // 
             // textBox1
             // 
@@ -415,7 +399,6 @@ namespace onlineShopping
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.aboutusButton);
             this.Controls.Add(this.profilesButton);
-            this.Controls.Add(this.ordersButton);
             this.Controls.Add(this.cartButton);
             this.Controls.Add(this.storesButton);
             this.Controls.Add(this.homeButton);
@@ -451,7 +434,6 @@ namespace onlineShopping
         private System.Windows.Forms.Button storesButton;
         private System.Windows.Forms.Button aboutusButton;
         private System.Windows.Forms.Button profilesButton;
-        private System.Windows.Forms.Button ordersButton;
         private System.Windows.Forms.Button cartButton;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;

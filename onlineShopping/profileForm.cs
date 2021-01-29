@@ -60,5 +60,19 @@ namespace onlineShopping
         {
 
         }
+
+        private void aboutusButton_Click(object sender, EventArgs e)
+        {
+            aboutUsForm aboutus2 = new aboutUsForm();
+            aboutus2.Show();
+            this.Hide();
+        }
+
+        private void cartButton_Click(object sender, EventArgs e)
+        {
+            CartForm cart3 = new CartForm();
+            cart3.Show();
+            this.Hide();
+        }
     }
 }
