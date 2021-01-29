@@ -47,6 +47,8 @@ namespace onlineShopping
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.emailText = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -250,11 +252,29 @@ namespace onlineShopping
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label3.Visible = false;
             // 
+            // emailText
+            // 
+            this.emailText.Location = new System.Drawing.Point(684, 653);
+            this.emailText.Name = "emailText";
+            this.emailText.Size = new System.Drawing.Size(484, 22);
+            this.emailText.TabIndex = 33;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(803, 622);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(246, 17);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Enter your email before you purchase";
+            // 
             // CartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.emailText);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -292,5 +312,7 @@ namespace onlineShopping
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.ListBox listBoxCart;
         public System.Windows.Forms.TextBox totaliBox;
+        private System.Windows.Forms.TextBox emailText;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Mail;
+
 
 namespace onlineShopping
 {
@@ -34,12 +37,43 @@ namespace onlineShopping
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label4.Text = DateTime.Now.ToLongTimeString();
-            label3.Text = DateTime.Now.ToLongDateString();
-            MessageBox.Show("Your order has been placed", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            OrderForm order = new OrderForm(this);
-            order.Show();
-            this.Hide();
+            if (string.IsNullOrEmpty(emailText.Text))
+            {
+                MessageBox.Show("Please enter your email", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                string to, from, pass, mail;
+                label4.Text = DateTime.Now.ToLongTimeString();
+                label3.Text = DateTime.Now.ToLongDateString();
+                MessageBox.Show("Your order has been placed", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                to = (emailText.Text).ToString();
+                from = "droneshipping77@gmail.com";
+                pass = "ismetpeja";
+                mail = "Thank you for your purchase.\n Your total is " + totaliBox.Text.ToString();
+                MailMessage message = new MailMessage();
+                message.To.Add(to);
+                message.From = new MailAddress(from);
+                message.Body = mail;
+                message.Subject = "DroneShipping order!";
+                SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+                smtp.EnableSsl = true;
+                smtp.Port = 587;
+                smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                smtp.UseDefaultCredentials = false;
+                smtp.Credentials = new NetworkCredential(from, pass);
+                try
+                {
+                    smtp.Send(message);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                OrderForm order = new OrderForm(this);
+                order.Show();
+                this.Hide();
+            }
 
         }
 

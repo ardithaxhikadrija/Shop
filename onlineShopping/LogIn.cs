@@ -24,6 +24,13 @@ namespace onlineShopping
 
         private void LogInButton_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtUser.Text)){
+                MessageBox.Show("Please enter a username","Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            if (string.IsNullOrEmpty(txtPassword.Text))
+            {
+                MessageBox.Show("Please enter a valid password", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             this.Hide();
         }
 

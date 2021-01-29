@@ -58,5 +58,12 @@ namespace onlineShopping
             cart.Show();
             this.Hide();
         }
+
+        private void storesButton_Click(object sender, EventArgs e)
+        {
+            StoreForm store = new StoreForm();
+            store.Show();
+            this.Close();
+        }
     }
 }

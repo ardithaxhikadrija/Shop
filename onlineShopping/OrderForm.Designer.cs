@@ -53,7 +53,7 @@ namespace onlineShopping
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(490, 550);
+            this.label1.Location = new System.Drawing.Point(937, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 0;
@@ -64,7 +64,7 @@ namespace onlineShopping
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(248, 580);
+            this.label2.Location = new System.Drawing.Point(695, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 21);
             this.label2.TabIndex = 1;
@@ -145,6 +145,7 @@ namespace onlineShopping
             this.storesButton.TabIndex = 13;
             this.storesButton.Text = "Stores";
             this.storesButton.UseVisualStyleBackColor = true;
+            this.storesButton.Click += new System.EventHandler(this.storesButton_Click);
             // 
             // homeButton
             // 
@@ -187,7 +188,7 @@ namespace onlineShopping
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(210, 550);
+            this.label4.Location = new System.Drawing.Point(657, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(276, 21);
             this.label4.TabIndex = 27;
@@ -197,7 +198,7 @@ namespace onlineShopping
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(210, 580);
+            this.label5.Location = new System.Drawing.Point(657, 160);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 21);
             this.label5.TabIndex = 28;
@@ -207,7 +208,7 @@ namespace onlineShopping
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(210, 617);
+            this.label6.Location = new System.Drawing.Point(657, 197);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(112, 21);
             this.label6.TabIndex = 29;
@@ -217,7 +218,7 @@ namespace onlineShopping
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(324, 617);
+            this.label7.Location = new System.Drawing.Point(771, 197);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 19);
             this.label7.TabIndex = 30;
@@ -227,10 +228,11 @@ namespace onlineShopping
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(589, 452);
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label8.Location = new System.Drawing.Point(693, 636);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(500, 62);
+            this.label8.Size = new System.Drawing.Size(502, 62);
             this.label8.TabIndex = 31;
             this.label8.Text = "Your order will arrive to you for 2-4 days.\r\n ";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
