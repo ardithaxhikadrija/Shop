@@ -54,6 +54,10 @@ namespace onlineShopping
                 MailMessage message = new MailMessage();
                 message.To.Add(to);
                 message.From = new MailAddress(from);
+                string foto = location.Text;
+                System.Net.Mail.Attachment attachment;
+                attachment = new System.Net.Mail.Attachment(foto);
+                message.Attachments.Add(attachment);
                 message.Body = mail;
                 message.Subject = "DroneShipping order!";
                 SmtpClient smtp = new SmtpClient("smtp.gmail.com");

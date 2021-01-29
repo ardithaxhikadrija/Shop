@@ -49,7 +49,10 @@ namespace onlineShopping
             this.label3 = new System.Windows.Forms.Label();
             this.emailText = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.location = new System.Windows.Forms.TextBox();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -268,11 +271,32 @@ namespace onlineShopping
             this.label5.TabIndex = 34;
             this.label5.Text = "Enter your email before you purchase";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(763, 332);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(302, 217);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
+            // location
+            // 
+            this.location.Location = new System.Drawing.Point(671, 271);
+            this.location.Name = "location";
+            this.location.Size = new System.Drawing.Size(100, 22);
+            this.location.TabIndex = 36;
+            this.location.Text = "C:\\Users\\ardit\\Desktop\\onlineShoppingIcon\\aba.jpg";
+            this.location.Visible = false;
+            // 
             // CartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.location);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.emailText);
             this.Controls.Add(this.label3);
@@ -290,6 +314,7 @@ namespace onlineShopping
             this.Text = "CartForm";
             this.Load += new System.EventHandler(this.CartForm_Load);
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,5 +339,7 @@ namespace onlineShopping
         public System.Windows.Forms.TextBox totaliBox;
         private System.Windows.Forms.TextBox emailText;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox location;
     }
 }
