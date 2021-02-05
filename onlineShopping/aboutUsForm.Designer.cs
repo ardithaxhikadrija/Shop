@@ -32,7 +32,6 @@ namespace onlineShopping
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(aboutUsForm));
             this.aboutusButton = new System.Windows.Forms.Button();
             this.profilesButton = new System.Windows.Forms.Button();
-            this.cartButton = new System.Windows.Forms.Button();
             this.storesButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -66,31 +65,13 @@ namespace onlineShopping
             this.profilesButton.ForeColor = System.Drawing.Color.White;
             this.profilesButton.Image = ((System.Drawing.Image)(resources.GetObject("profilesButton.Image")));
             this.profilesButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.profilesButton.Location = new System.Drawing.Point(0, 228);
+            this.profilesButton.Location = new System.Drawing.Point(0, 152);
             this.profilesButton.Name = "profilesButton";
             this.profilesButton.Size = new System.Drawing.Size(175, 75);
             this.profilesButton.TabIndex = 27;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = false;
             this.profilesButton.Click += new System.EventHandler(this.profilesButton_Click);
-            // 
-            // cartButton
-            // 
-            this.cartButton.BackColor = System.Drawing.Color.Transparent;
-            this.cartButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cartButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.cartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cartButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartButton.ForeColor = System.Drawing.Color.White;
-            this.cartButton.Image = ((System.Drawing.Image)(resources.GetObject("cartButton.Image")));
-            this.cartButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cartButton.Location = new System.Drawing.Point(0, 152);
-            this.cartButton.Name = "cartButton";
-            this.cartButton.Size = new System.Drawing.Size(175, 75);
-            this.cartButton.TabIndex = 25;
-            this.cartButton.Text = "Cart";
-            this.cartButton.UseVisualStyleBackColor = false;
-            this.cartButton.Click += new System.EventHandler(this.cartButton_Click);
             // 
             // storesButton
             // 
@@ -149,7 +130,7 @@ namespace onlineShopping
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(543, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 41);
+            this.label2.Size = new System.Drawing.Size(168, 40);
             this.label2.TabIndex = 31;
             this.label2.Text = "About Us";
             // 
@@ -164,7 +145,6 @@ namespace onlineShopping
             this.Controls.Add(this.label1);
             this.Controls.Add(this.aboutusButton);
             this.Controls.Add(this.profilesButton);
-            this.Controls.Add(this.cartButton);
             this.Controls.Add(this.storesButton);
             this.Controls.Add(this.homeButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -180,7 +160,6 @@ namespace onlineShopping
 
         private System.Windows.Forms.Button aboutusButton;
         private System.Windows.Forms.Button profilesButton;
-        private System.Windows.Forms.Button cartButton;
         private System.Windows.Forms.Button storesButton;
         private System.Windows.Forms.Button homeButton;
         private System.Windows.Forms.Label label1;
