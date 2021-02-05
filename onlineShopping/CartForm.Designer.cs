@@ -46,7 +46,13 @@ namespace onlineShopping
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.emailText = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.location = new System.Windows.Forms.TextBox();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -62,7 +68,7 @@ namespace onlineShopping
             this.aboutusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutusButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 380);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 622);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 17;
@@ -200,6 +206,7 @@ namespace onlineShopping
             // totaliBox
             // 
             this.totaliBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totaliBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.totaliBox.Location = new System.Drawing.Point(1002, 115);
             this.totaliBox.Name = "totaliBox";
             this.totaliBox.ReadOnly = true;
@@ -211,20 +218,20 @@ namespace onlineShopping
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1083, 76);
+            this.label2.Location = new System.Drawing.Point(1089, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 31);
+            this.label2.Size = new System.Drawing.Size(79, 31);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Totali:";
+            this.label2.Text = "Total:";
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(1002, 169);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 38);
             this.button1.TabIndex = 29;
-            this.button1.Text = "B l e j";
+            this.button1.Text = "B Y  N O W";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -235,11 +242,64 @@ namespace onlineShopping
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 17);
             this.label4.TabIndex = 31;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(883, 482);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 17);
+            this.label3.TabIndex = 32;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Visible = false;
+            // 
+            // emailText
+            // 
+            this.emailText.Location = new System.Drawing.Point(684, 653);
+            this.emailText.Name = "emailText";
+            this.emailText.Size = new System.Drawing.Size(484, 22);
+            this.emailText.TabIndex = 33;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(803, 622);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(246, 17);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "Enter your email before you purchase";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(763, 332);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(302, 217);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 35;
+            this.pictureBox1.TabStop = false;
+            // 
+            // location
+            // 
+            this.location.Location = new System.Drawing.Point(671, 271);
+            this.location.Name = "location";
+            this.location.Size = new System.Drawing.Size(100, 22);
+            this.location.TabIndex = 36;
+            this.location.Text = "C:\\Users\\ardit\\Desktop\\onlineShoppingIcon\\aba.jpg";
+            this.location.Visible = false;
             // 
             // CartForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.location);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.emailText);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -254,6 +314,7 @@ namespace onlineShopping
             this.Text = "CartForm";
             this.Load += new System.EventHandler(this.CartForm_Load);
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,10 +331,15 @@ namespace onlineShopping
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ListBox listBoxCart;
-        private System.Windows.Forms.TextBox totaliBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.ListBox listBoxCart;
+        public System.Windows.Forms.TextBox totaliBox;
+        private System.Windows.Forms.TextBox emailText;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox location;
     }
 }
