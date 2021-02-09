@@ -43,6 +43,8 @@ namespace onlineShopping
             }
             else
             {
+                Random r = new Random();
+                string orderID = r.Next().ToString();
                 string to, from, pass, mail;
                 label4.Text = DateTime.Now.ToLongTimeString();
                 label3.Text = DateTime.Now.ToLongDateString();
@@ -50,7 +52,7 @@ namespace onlineShopping
                 to = (emailText.Text).ToString();
                 from = "droneshipping77@gmail.com";
                 pass = "ismetpeja";
-                mail = "Thank you for your purchase.\n Your total is " + totaliBox.Text.ToString();
+                mail = "Thank you for your purchase.\n Your order ID is:" + orderID + "\n Your total is " + totaliBox.Text.ToString();
                 MailMessage message = new MailMessage();
                 message.To.Add(to);
                 message.From = new MailAddress(from);
