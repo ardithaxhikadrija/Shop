@@ -16,6 +16,7 @@ namespace onlineShopping
         {
             InitializeComponent();
             profile1.Hide();
+            menuPanel22.Hide();
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace onlineShopping
 
         private void homeForm_Load(object sender, EventArgs e)
         {
-            menuPanel21.Hide();
+            menuPanel22.Hide();
         }
 
         private void profile1_Load(object sender, EventArgs e)
@@ -59,7 +60,7 @@ namespace onlineShopping
 
         private void menuButton_Click(object sender, EventArgs e)
         {
-            menuPanel21.Show();
+            menuPanel22.Show();
         }
 
         private void profile1_Load_2(object sender, EventArgs e)

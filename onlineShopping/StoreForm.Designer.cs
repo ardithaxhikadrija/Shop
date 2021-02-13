@@ -94,6 +94,7 @@ namespace onlineShopping
             this.cartButton = new System.Windows.Forms.Button();
             this.storesButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -732,6 +733,7 @@ namespace onlineShopping
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel9.Controls.Add(this.button9);
             this.panel9.Controls.Add(this.aboutusButton);
             this.panel9.Controls.Add(this.profilesButton);
             this.panel9.Controls.Add(this.cartButton);
@@ -750,7 +752,7 @@ namespace onlineShopping
             this.aboutusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutusButton.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutusButton.ForeColor = System.Drawing.Color.White;
-            this.aboutusButton.Location = new System.Drawing.Point(0, 304);
+            this.aboutusButton.Location = new System.Drawing.Point(0, 655);
             this.aboutusButton.Name = "aboutusButton";
             this.aboutusButton.Size = new System.Drawing.Size(175, 75);
             this.aboutusButton.TabIndex = 17;
@@ -823,6 +825,20 @@ namespace onlineShopping
             this.homeButton.Text = "Home";
             this.homeButton.UseVisualStyleBackColor = true;
             this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
+            // 
+            // button9
+            // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(0, 393);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(175, 75);
+            this.button9.TabIndex = 18;
+            this.button9.Text = "About Us";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // StoreForm
             // 
@@ -940,5 +956,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button9;
     }
 }

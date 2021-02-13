@@ -48,6 +48,7 @@ namespace onlineShopping
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.tracking1 = new onlineShopping.Tracking();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -273,11 +274,21 @@ namespace onlineShopping
             this.button2.Text = "Cancel your order";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // tracking1
+            // 
+            this.tracking1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tracking1.Location = new System.Drawing.Point(355, 273);
+            this.tracking1.Name = "tracking1";
+            this.tracking1.Size = new System.Drawing.Size(476, 150);
+            this.tracking1.TabIndex = 35;
+            this.tracking1.Visible = false;
+            // 
             // OrderForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.Controls.Add(this.tracking1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
@@ -322,5 +333,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private Tracking tracking1;
     }
 }
