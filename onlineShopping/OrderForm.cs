@@ -18,7 +18,7 @@ namespace onlineShopping
         {
             InitializeComponent();
             this.cf = cart;
-            tracking1.Hide();
+            //tracking1.Hide();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace onlineShopping
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tracking1.Show();
+            //tracking1.Show();
         }
     }
 }
