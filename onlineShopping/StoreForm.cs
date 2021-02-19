@@ -15,6 +15,7 @@ namespace onlineShopping
         public StoreForm()
         {
             InitializeComponent();
+            symptomsUC1.Hide();
             
         }
 
@@ -307,6 +308,25 @@ namespace onlineShopping
         private void ordersButton_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            symptomsUC1.Show();
+        }
+
+        private void aboutusButton_Click(object sender, EventArgs e)
+        {
+            aboutUsForm au = new aboutUsForm();
+            au.Show();
+            this.Close();
+        }
+
+        private void profilesButton_Click(object sender, EventArgs e)
+        {
+            profileForm profile = new profileForm();
+            profile.Show();
+            this.Hide();
         }
     }
 }

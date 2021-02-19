@@ -89,12 +89,13 @@ namespace onlineShopping
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
             this.aboutusButton = new System.Windows.Forms.Button();
             this.profilesButton = new System.Windows.Forms.Button();
             this.cartButton = new System.Windows.Forms.Button();
             this.storesButton = new System.Windows.Forms.Button();
             this.homeButton = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.symptomsUC1 = new onlineShopping.SymptomsUC();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -745,6 +746,23 @@ namespace onlineShopping
             this.panel9.TabIndex = 22;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
+            // button9
+            // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(0, 393);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(175, 75);
+            this.button9.TabIndex = 18;
+            this.button9.Text = "  Your \r\n   symptoms";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
             // aboutusButton
             // 
             this.aboutusButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -758,6 +776,7 @@ namespace onlineShopping
             this.aboutusButton.TabIndex = 17;
             this.aboutusButton.Text = "About Us";
             this.aboutusButton.UseVisualStyleBackColor = true;
+            this.aboutusButton.Click += new System.EventHandler(this.aboutusButton_Click);
             // 
             // profilesButton
             // 
@@ -774,6 +793,7 @@ namespace onlineShopping
             this.profilesButton.TabIndex = 16;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = true;
+            this.profilesButton.Click += new System.EventHandler(this.profilesButton_Click);
             // 
             // cartButton
             // 
@@ -826,35 +846,30 @@ namespace onlineShopping
             this.homeButton.UseVisualStyleBackColor = true;
             this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             // 
-            // button9
+            // symptomsUC1
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(0, 393);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(175, 75);
-            this.button9.TabIndex = 18;
-            this.button9.Text = "About Us";
-            this.button9.UseVisualStyleBackColor = true;
+            this.symptomsUC1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.symptomsUC1.Location = new System.Drawing.Point(326, 204);
+            this.symptomsUC1.Name = "symptomsUC1";
+            this.symptomsUC1.Size = new System.Drawing.Size(707, 329);
+            this.symptomsUC1.TabIndex = 6;
             // 
             // StoreForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(1242, 700);
+            this.ClientSize = new System.Drawing.Size(1305, 700);
+            this.Controls.Add(this.symptomsUC1);
             this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StoreForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -957,5 +972,6 @@ namespace onlineShopping
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button9;
+        private SymptomsUC symptomsUC1;
     }
 }

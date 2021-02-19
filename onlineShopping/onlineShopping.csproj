@@ -160,6 +160,12 @@
     <Compile Include="StoreForm.Designer.cs">
       <DependentUpon>StoreForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SymptomsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SymptomsUC.Designer.cs">
+      <DependentUpon>SymptomsUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tracking.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -219,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StoreForm.resx">
       <DependentUpon>StoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SymptomsUC.resx">
+      <DependentUpon>SymptomsUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tracking.resx">
       <DependentUpon>Tracking.cs</DependentUpon>

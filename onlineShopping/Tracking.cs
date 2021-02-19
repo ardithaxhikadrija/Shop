@@ -22,5 +22,10 @@ namespace onlineShopping
         {
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your order has not been shipped yet!","Tracking",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }

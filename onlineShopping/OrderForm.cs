@@ -71,5 +71,19 @@ namespace onlineShopping
         {
             tracking1.Show();
         }
+
+        private void aboutusButton_Click(object sender, EventArgs e)
+        {
+            aboutUsForm aboutus = new aboutUsForm();
+            aboutus.Show();
+            this.Hide();
+        }
+
+        private void profilesButton_Click(object sender, EventArgs e)
+        {
+            profileForm profile = new profileForm();
+            profile.Show();
+            this.Hide();
+        }
     }
 }

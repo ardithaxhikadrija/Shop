@@ -100,6 +100,7 @@ namespace onlineShopping
             this.aboutusButton.TabIndex = 17;
             this.aboutusButton.Text = "About Us";
             this.aboutusButton.UseVisualStyleBackColor = true;
+            this.aboutusButton.Click += new System.EventHandler(this.aboutusButton_Click);
             // 
             // profilesButton
             // 
@@ -116,6 +117,7 @@ namespace onlineShopping
             this.profilesButton.TabIndex = 16;
             this.profilesButton.Text = "Profile";
             this.profilesButton.UseVisualStyleBackColor = true;
+            this.profilesButton.Click += new System.EventHandler(this.profilesButton_Click);
             // 
             // ordersButton
             // 
@@ -279,7 +281,7 @@ namespace onlineShopping
             this.tracking1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tracking1.Location = new System.Drawing.Point(355, 273);
             this.tracking1.Name = "tracking1";
-            this.tracking1.Size = new System.Drawing.Size(476, 150);
+            this.tracking1.Size = new System.Drawing.Size(439, 150);
             this.tracking1.TabIndex = 35;
             this.tracking1.Visible = false;
             // 
