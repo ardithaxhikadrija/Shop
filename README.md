@@ -2,7 +2,7 @@
 This program is done by Art Nela and me.
 We took a collage project, to create an online shopping platform with C#, .Net in Windows Form.
 We knew nothing except writing "Hello World" on the console. No idea how GitHub worked for a join project.
-A special thanks go to the professor that motivated us to do this: **Ermira Shehu**.
+A special thanks go to the professor that motivated us to do this: **Ermira Daka**.
 This project went to push us to start our start-up in Kosovo: **LUA Robotics**, the first robotics company in our country.
 
 # Target group
